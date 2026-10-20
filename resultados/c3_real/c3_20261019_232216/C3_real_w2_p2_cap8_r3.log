@@ -1,0 +1,22 @@
+[2026-10-19 23:24:42.739] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-19 23:24:42.739] [FILA] [MainThread] evento: inicio modo: seguro trabalhadores: 2 produtores: 2 capacidade: 8 requisicoes: 8 carga: io
+[2026-10-19 23:24:42.740] [CONSULTA] [Produtor-0] evento: enfileirada id: 0 fila: 1
+[2026-10-19 23:24:42.740] [CONSULTA] [Produtor-0] evento: enfileirada id: 2 fila: 1
+[2026-10-19 23:24:42.741] [CONSULTA] [Produtor-0] evento: enfileirada id: 4 fila: 2
+[2026-10-19 23:24:42.741] [CONSULTA] [Produtor-0] evento: enfileirada id: 6 fila: 3
+[2026-10-19 23:24:42.740] [CONSULTA] [Produtor-1] evento: enfileirada id: 1 fila: 2
+[2026-10-19 23:24:42.742] [CONSULTA] [Produtor-1] evento: enfileirada id: 3 fila: 4
+[2026-10-19 23:24:42.742] [CONSULTA] [Produtor-1] evento: enfileirada id: 5 fila: 5
+[2026-10-19 23:24:42.742] [CONSULTA] [Produtor-1] evento: enfileirada id: 7 fila: 6
+[2026-10-19 23:24:47.201] [FILA] [Trabalhador-1] evento: processada id: 0 espera_s: 0.0003 proc_s: 4.4607 fila: 8
+[2026-10-19 23:24:50.529] [FILA] [Trabalhador-0] evento: processada id: 1 espera_s: 0.0002 proc_s: 7.7882 fila: 7
+[2026-10-19 23:24:53.178] [FILA] [Trabalhador-1] evento: processada id: 2 espera_s: 4.4606 proc_s: 5.9769 fila: 6
+[2026-10-19 23:24:55.255] [FILA] [Trabalhador-0] evento: processada id: 4 espera_s: 7.7881 proc_s: 4.7262 fila: 5
+[2026-10-19 23:24:59.523] [FILA] [Trabalhador-1] evento: processada id: 6 espera_s: 10.4372 proc_s: 6.3453 fila: 4
+[2026-10-19 23:25:02.156] [FILA] [Trabalhador-0] evento: processada id: 3 espera_s: 12.5132 proc_s: 6.9015 fila: 3
+[2026-10-19 23:25:04.924] [FILA] [Trabalhador-1] evento: processada id: 5 espera_s: 16.7815 proc_s: 5.4001 fila: 2
+[2026-10-19 23:25:04.924] [ENCERRAMENTO] [Trabalhador-1] evento: trabalhador_encerrado
+[2026-10-19 23:25:09.203] [FILA] [Trabalhador-0] evento: processada id: 7 espera_s: 19.4145 proc_s: 7.0464 fila: 1
+[2026-10-19 23:25:09.203] [ENCERRAMENTO] [Trabalhador-0] evento: trabalhador_encerrado
+[2026-10-19 23:25:09.203] [FILA] [MainThread] evento: resumo modo: seguro carga: io trabalhadores: 2 produtores: 2 capacidade: 8 requisicoes: 8 custo_s: 0.05 timeout_put_s:  aceitas: 8 rejeitadas: 0 processadas_unicas: 8 perdidas: 0 duplicadas: 0 invalidas: 0 falhas_processamento: 0 tempo_total_s: 26.4635 vazao_req_s: 0.302 espera_media_s: 8.9245 espera_mediana_s: 9.1127 espera_p95_s: 18.493 espera_max_s: 19.4145 fila_media: 3.4 fila_max: 8 bloqueios_produtor: 0 esperas_consumidor: 2 utilizacao_media: 0.919 contador_final: 0 sinais_encerramento: 2 encerramento_forcado: False
+[2026-10-19 23:25:09.203] [ENCERRAMENTO] [MainThread] status: sistema_encerrado

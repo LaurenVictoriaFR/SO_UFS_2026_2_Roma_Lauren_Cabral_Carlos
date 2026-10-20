@@ -1,0 +1,102 @@
+[2026-10-19 22:44:28.855] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-19 22:44:28] [CONSULTA] [Worker-0] [2026-10-19 22:44:28] [CONSULTA] [Worker-1] [2026-10-19 22:44:28] [CONSULTA] [Worker-2] [2026-10-19 22:44:28] [CONSULTA] [Worker-4] [2026-10-19 22:44:28] [CONSULTA] [Worker-3] [2026-10-19 22:44:28] [CONSULTA] [Worker-5] [2026-10-19 22:44:28] [CONSULTA] [Worker-6] [2026-10-19 22:44:28] [CONSULTA] [Worker-7] tarefa: 0 status: iniciada
+[2026-10-19 22:44:28] [CONSULTA] [Worker-8] [2026-10-19 22:44:28] [CONSULTA] [Worker-9] tarefa: 0 status: iniciada
+tarefa: 0 status: iniciada
+tarefa: 0 status: iniciada
+tarefa: 0 status: iniciada
+tarefa: 0 status: iniciada
+tarefa: 0 status: iniciada
+tarefa: 0 status: iniciada
+tarefa: 0 status: iniciada
+tarefa: 0 status: iniciada
+[2026-10-19 22:44:28] [GERACAO] [Worker-0] [2026-10-19 22:44:28] [GERACAO] [Worker-1] [2026-10-19 22:44:28] [GERACAO] [Worker-2] [2026-10-19 22:44:28] [GERACAO] [Worker-3] [2026-10-19 22:44:28] [GERACAO] [Worker-4] [2026-10-19 22:44:28] [GERACAO] [Worker-5] [2026-10-19 22:44:28] [GERACAO] [Worker-6] [2026-10-19 22:44:28] [GERACAO] [Worker-7] [2026-10-19 22:44:28] [GERACAO] [Worker-9] tarefa: 0 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-0] [2026-10-19 22:44:28] [GERACAO] [Worker-8] tarefa: 0 status: concluida duracao: 0.01s
+tarefa: 0 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-2] [2026-10-19 22:44:28] [CONSULTA] [Worker-1] tarefa: 0 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-3] tarefa: 0 status: concluida duracao: 0.01s
+tarefa: 0 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-5] [2026-10-19 22:44:28] [CONSULTA] [Worker-4] tarefa: 0 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-6] tarefa: 0 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-7] tarefa: 0 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-9] tarefa: 1 status: iniciada
+tarefa: 0 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-8] tarefa: 1 status: iniciada
+tarefa: 1 status: iniciada
+tarefa: 1 status: iniciada
+tarefa: 1 status: iniciada
+tarefa: 1 status: iniciada
+tarefa: 1 status: iniciada
+tarefa: 1 status: iniciada
+tarefa: 1 status: iniciada
+tarefa: 1 status: iniciada
+[2026-10-19 22:44:28] [GERACAO] [Worker-0] [2026-10-19 22:44:28] [GERACAO] [Worker-2] [2026-10-19 22:44:28] [GERACAO] [Worker-1] [2026-10-19 22:44:28] [GERACAO] [Worker-3] [2026-10-19 22:44:28] [GERACAO] [Worker-4] [2026-10-19 22:44:28] [GERACAO] [Worker-5] [2026-10-19 22:44:28] [GERACAO] [Worker-6] [2026-10-19 22:44:28] [GERACAO] [Worker-7] [2026-10-19 22:44:28] [GERACAO] [Worker-9] [2026-10-19 22:44:28] [GERACAO] [Worker-8] tarefa: 1 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-0] tarefa: 1 status: concluida duracao: 0.01s
+tarefa: 1 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-1] [2026-10-19 22:44:28] [CONSULTA] [Worker-2] tarefa: 1 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-3] tarefa: 1 status: concluida duracao: 0.01s
+tarefa: 1 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-4] [2026-10-19 22:44:28] [CONSULTA] [Worker-5] tarefa: 1 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-6] tarefa: 1 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-7] tarefa: 1 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-9] tarefa: 1 status: concluida duracao: 0.01s
+tarefa: 2 status: iniciada
+[2026-10-19 22:44:28] [CONSULTA] [Worker-8] tarefa: 2 status: iniciada
+tarefa: 2 status: iniciada
+tarefa: 2 status: iniciada
+tarefa: 2 status: iniciada
+tarefa: 2 status: iniciada
+tarefa: 2 status: iniciada
+tarefa: 2 status: iniciada
+tarefa: 2 status: iniciada
+tarefa: 2 status: iniciada
+[2026-10-19 22:44:28] [GERACAO] [Worker-0] [2026-10-19 22:44:28] [GERACAO] [Worker-1] [2026-10-19 22:44:28] [GERACAO] [Worker-2] [2026-10-19 22:44:28] [GERACAO] [Worker-3] [2026-10-19 22:44:28] [GERACAO] [Worker-4] [2026-10-19 22:44:28] [GERACAO] [Worker-5] [2026-10-19 22:44:28] [GERACAO] [Worker-6] [2026-10-19 22:44:28] [GERACAO] [Worker-7] [2026-10-19 22:44:28] [GERACAO] [Worker-9] [2026-10-19 22:44:28] [GERACAO] [Worker-8] tarefa: 2 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-0] tarefa: 2 status: concluida duracao: 0.01s
+tarefa: 2 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-1] tarefa: 2 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-2] [2026-10-19 22:44:28] [CONSULTA] [Worker-3] tarefa: 2 status: concluida duracao: 0.01s
+tarefa: 2 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-5] [2026-10-19 22:44:28] [CONSULTA] [Worker-4] tarefa: 2 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-6] tarefa: 2 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-7] tarefa: 2 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-9] tarefa: 2 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-8] tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+tarefa: 3 status: iniciada
+[2026-10-19 22:44:28] [GERACAO] [Worker-0] [2026-10-19 22:44:28] [GERACAO] [Worker-2] [2026-10-19 22:44:28] [GERACAO] [Worker-1] [2026-10-19 22:44:28] [GERACAO] [Worker-3] [2026-10-19 22:44:28] [GERACAO] [Worker-5] [2026-10-19 22:44:28] [GERACAO] [Worker-4] [2026-10-19 22:44:28] [GERACAO] [Worker-6] [2026-10-19 22:44:28] [GERACAO] [Worker-7] [2026-10-19 22:44:28] [GERACAO] [Worker-9] [2026-10-19 22:44:28] [GERACAO] [Worker-8] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-0] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-2] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-1] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-3] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-5] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-4] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-6] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-7] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-9] tarefa: 3 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28] [CONSULTA] [Worker-8] tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+tarefa: 4 status: iniciada
+[2026-10-19 22:44:28] [GERACAO] [Worker-0] [2026-10-19 22:44:28] [GERACAO] [Worker-2] [2026-10-19 22:44:28] [GERACAO] [Worker-1] [2026-10-19 22:44:28] [GERACAO] [Worker-3] [2026-10-19 22:44:28] [GERACAO] [Worker-5] [2026-10-19 22:44:28] [GERACAO] [Worker-4] [2026-10-19 22:44:28] [GERACAO] [Worker-6] [2026-10-19 22:44:28] [GERACAO] [Worker-9] [2026-10-19 22:44:28] [GERACAO] [Worker-7] [2026-10-19 22:44:28] [GERACAO] [Worker-8] tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+tarefa: 4 status: concluida duracao: 0.01s
+[2026-10-19 22:44:28.918] [ENCERRAMENTO] [MainThread] status: sistema_encerrado

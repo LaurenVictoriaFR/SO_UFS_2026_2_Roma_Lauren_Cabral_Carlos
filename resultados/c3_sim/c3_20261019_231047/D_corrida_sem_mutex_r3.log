@@ -1,0 +1,579 @@
+[2026-10-19 23:19:33.140] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-19 23:19:33.141] [FILA] [MainThread] evento: inicio modo: inseguro trabalhadores: 4 produtores: 4 capacidade: 8 requisicoes: 200 carga: io
+[2026-10-19 23:19:33.143] [CONSULTA] [Produtor-0] evento: enfileirada id: 0 fila: 1
+[2026-10-19 23:19:33.143] [CONSULTA] [Produtor-2] evento: enfileirada id: 2 fila: 1
+[2026-10-19 23:19:33.143] [CONSULTA] [Produtor-1] evento: enfileirada id: 1 fila: 1
+[2026-10-19 23:19:33.143] [CONSULTA] [Produtor-3] evento: enfileirada id: 3 fila: 1
+[2026-10-19 23:19:33.144] [CONSULTA] [Produtor-0] evento: enfileirada id: 4 fila: 2
+[2026-10-19 23:19:33.144] [FALHA] [Trabalhador-2] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.144] [CONSULTA] [Produtor-1] evento: enfileirada id: 5 fila: 2
+[2026-10-19 23:19:33.144] [FALHA] [Trabalhador-3] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.144] [CONSULTA] [Produtor-2] evento: enfileirada id: 6 fila: 2
+[2026-10-19 23:19:33.144] [FALHA] [Trabalhador-1] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.144] [CONSULTA] [Produtor-3] evento: enfileirada id: 7 fila: 2
+[2026-10-19 23:19:33.145] [CONSULTA] [Produtor-0] evento: enfileirada id: 8 fila: 3
+[2026-10-19 23:19:33.145] [CONSULTA] [Produtor-1] evento: enfileirada id: 9 fila: 3
+[2026-10-19 23:19:33.145] [FALHA] [Trabalhador-3] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.145] [CONSULTA] [Produtor-2] evento: enfileirada id: 10 fila: 3
+[2026-10-19 23:19:33.145] [CONSULTA] [Produtor-3] evento: enfileirada id: 11 fila: 3
+[2026-10-19 23:19:33.145] [FALHA] [Trabalhador-1] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.146] [CONSULTA] [Produtor-0] evento: enfileirada id: 12 fila: 2
+[2026-10-19 23:19:33.146] [CONSULTA] [Produtor-1] evento: enfileirada id: 13 fila: 2
+[2026-10-19 23:19:33.147] [CONSULTA] [Produtor-2] evento: enfileirada id: 14 fila: 2
+[2026-10-19 23:19:33.147] [FALHA] [Trabalhador-1] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.148] [CONSULTA] [Produtor-3] evento: enfileirada id: 15 fila: 1
+[2026-10-19 23:19:33.148] [CONSULTA] [Produtor-0] evento: enfileirada id: 16 fila: 1
+[2026-10-19 23:19:33.149] [GERACAO] [Trabalhador-0] id: 3 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.149] [FILA] [Trabalhador-0] evento: processada id: 3 espera_s: 0.0020 proc_s: 0.0051 fila: -1
+[2026-10-19 23:19:33.149] [CONSULTA] [Produtor-1] evento: enfileirada id: 17 fila: 0
+[2026-10-19 23:19:33.150] [GERACAO] [Trabalhador-2] id: 7 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.150] [FILA] [Trabalhador-2] evento: processada id: 7 espera_s: 0.0022 proc_s: 0.0051 fila: -1
+[2026-10-19 23:19:33.151] [CONSULTA] [Produtor-2] evento: enfileirada id: 18 fila: 0
+[2026-10-19 23:19:33.152] [GERACAO] [Trabalhador-3] id: 11 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.152] [FILA] [Trabalhador-3] evento: processada id: 11 espera_s: 0.0023 proc_s: 0.0051 fila: -2
+[2026-10-19 23:19:33.153] [CONSULTA] [Produtor-3] evento: enfileirada id: 19 fila: -1
+[2026-10-19 23:19:33.153] [GERACAO] [Trabalhador-1] id: 14 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.153] [FILA] [Trabalhador-1] evento: processada id: 14 espera_s: 0.0024 proc_s: 0.0051 fila: -3
+[2026-10-19 23:19:33.154] [CONSULTA] [Produtor-0] evento: enfileirada id: 20 fila: -2
+[2026-10-19 23:19:33.155] [GERACAO] [Trabalhador-0] id: 16 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.155] [FILA] [Trabalhador-0] evento: processada id: 16 espera_s: 0.0037 proc_s: 0.0052 fila: -4
+[2026-10-19 23:19:33.155] [CONSULTA] [Produtor-1] evento: enfileirada id: 21 fila: -3
+[2026-10-19 23:19:33.157] [GERACAO] [Trabalhador-2] id: 17 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.157] [FILA] [Trabalhador-2] evento: processada id: 17 espera_s: 0.0050 proc_s: 0.0051 fila: -4
+[2026-10-19 23:19:33.158] [CONSULTA] [Produtor-2] evento: enfileirada id: 22 fila: -3
+[2026-10-19 23:19:33.158] [GERACAO] [Trabalhador-3] id: 18 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.158] [FILA] [Trabalhador-3] evento: processada id: 18 espera_s: 0.0061 proc_s: 0.0051 fila: -5
+[2026-10-19 23:19:33.159] [CONSULTA] [Produtor-3] evento: enfileirada id: 23 fila: -4
+[2026-10-19 23:19:33.159] [GERACAO] [Trabalhador-1] id: 19 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.159] [FILA] [Trabalhador-1] evento: processada id: 19 espera_s: 0.0064 proc_s: 0.0051 fila: -6
+[2026-10-19 23:19:33.160] [CONSULTA] [Produtor-0] evento: enfileirada id: 24 fila: -5
+[2026-10-19 23:19:33.161] [GERACAO] [Trabalhador-0] id: 20 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.162] [FILA] [Trabalhador-0] evento: processada id: 20 espera_s: 0.0086 proc_s: 0.0051 fila: -7
+[2026-10-19 23:19:33.162] [CONSULTA] [Produtor-1] evento: enfileirada id: 25 fila: -6
+[2026-10-19 23:19:33.163] [GERACAO] [Trabalhador-2] id: 21 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.163] [FILA] [Trabalhador-2] evento: processada id: 21 espera_s: 0.0087 proc_s: 0.0051 fila: -7
+[2026-10-19 23:19:33.164] [CONSULTA] [Produtor-2] evento: enfileirada id: 26 fila: -6
+[2026-10-19 23:19:33.164] [GERACAO] [Trabalhador-3] id: 22 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.164] [FILA] [Trabalhador-3] evento: processada id: 22 espera_s: 0.0078 proc_s: 0.0051 fila: -8
+[2026-10-19 23:19:33.165] [CONSULTA] [Produtor-3] evento: enfileirada id: 27 fila: -7
+[2026-10-19 23:19:33.165] [GERACAO] [Trabalhador-1] id: 23 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.165] [FILA] [Trabalhador-1] evento: processada id: 23 espera_s: 0.0078 proc_s: 0.0051 fila: -9
+[2026-10-19 23:19:33.166] [CONSULTA] [Produtor-0] evento: enfileirada id: 28 fila: -8
+[2026-10-19 23:19:33.168] [GERACAO] [Trabalhador-0] id: 24 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.168] [FILA] [Trabalhador-0] evento: processada id: 24 espera_s: 0.0087 proc_s: 0.0051 fila: -10
+[2026-10-19 23:19:33.168] [CONSULTA] [Produtor-1] evento: enfileirada id: 29 fila: -9
+[2026-10-19 23:19:33.169] [GERACAO] [Trabalhador-2] id: 25 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.169] [FILA] [Trabalhador-2] evento: processada id: 25 espera_s: 0.0086 proc_s: 0.0051 fila: -9
+[2026-10-19 23:19:33.170] [CONSULTA] [Produtor-2] evento: enfileirada id: 30 fila: -9
+[2026-10-19 23:19:33.170] [GERACAO] [Trabalhador-3] id: 26 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.170] [FILA] [Trabalhador-3] evento: processada id: 26 espera_s: 0.0076 proc_s: 0.0051 fila: -9
+[2026-10-19 23:19:33.171] [CONSULTA] [Produtor-3] evento: enfileirada id: 31 fila: -8
+[2026-10-19 23:19:33.172] [GERACAO] [Trabalhador-1] id: 27 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.172] [FILA] [Trabalhador-1] evento: processada id: 27 espera_s: 0.0078 proc_s: 0.0051 fila: -10
+[2026-10-19 23:19:33.173] [CONSULTA] [Produtor-0] evento: enfileirada id: 32 fila: -9
+[2026-10-19 23:19:33.174] [CONSULTA] [Produtor-1] evento: enfileirada id: 33 fila: -10
+[2026-10-19 23:19:33.174] [GERACAO] [Trabalhador-0] id: 28 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.174] [FILA] [Trabalhador-0] evento: processada id: 28 espera_s: 0.0088 proc_s: 0.0051 fila: -10
+[2026-10-19 23:19:33.175] [GERACAO] [Trabalhador-2] id: 29 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.175] [FILA] [Trabalhador-2] evento: processada id: 29 espera_s: 0.0085 proc_s: 0.0051 fila: -10
+[2026-10-19 23:19:33.176] [CONSULTA] [Produtor-2] evento: enfileirada id: 34 fila: -10
+[2026-10-19 23:19:33.177] [GERACAO] [Trabalhador-3] id: 30 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.177] [FILA] [Trabalhador-3] evento: processada id: 30 espera_s: 0.0075 proc_s: 0.0051 fila: -10
+[2026-10-19 23:19:33.178] [CONSULTA] [Produtor-3] evento: enfileirada id: 35 fila: -9
+[2026-10-19 23:19:33.178] [GERACAO] [Trabalhador-1] id: 31 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.178] [FILA] [Trabalhador-1] evento: processada id: 31 espera_s: 0.0078 proc_s: 0.0051 fila: -11
+[2026-10-19 23:19:33.179] [CONSULTA] [Produtor-0] evento: enfileirada id: 36 fila: -10
+[2026-10-19 23:19:33.180] [CONSULTA] [Produtor-1] evento: enfileirada id: 37 fila: -11
+[2026-10-19 23:19:33.180] [GERACAO] [Trabalhador-0] id: 32 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.180] [FILA] [Trabalhador-0] evento: processada id: 32 espera_s: 0.0089 proc_s: 0.0051 fila: -11
+[2026-10-19 23:19:33.181] [GERACAO] [Trabalhador-2] id: 33 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.182] [FILA] [Trabalhador-2] evento: processada id: 33 espera_s: 0.0084 proc_s: 0.0051 fila: -11
+[2026-10-19 23:19:33.183] [CONSULTA] [Produtor-2] evento: enfileirada id: 38 fila: -11
+[2026-10-19 23:19:33.183] [GERACAO] [Trabalhador-3] id: 34 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.183] [FILA] [Trabalhador-3] evento: processada id: 34 espera_s: 0.0074 proc_s: 0.0052 fila: -11
+[2026-10-19 23:19:33.184] [CONSULTA] [Produtor-3] evento: enfileirada id: 39 fila: -10
+[2026-10-19 23:19:33.184] [GERACAO] [Trabalhador-1] id: 35 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.184] [FILA] [Trabalhador-1] evento: processada id: 35 espera_s: 0.0079 proc_s: 0.0051 fila: -12
+[2026-10-19 23:19:33.185] [CONSULTA] [Produtor-0] evento: enfileirada id: 40 fila: -11
+[2026-10-19 23:19:33.187] [CONSULTA] [Produtor-1] evento: enfileirada id: 41 fila: -12
+[2026-10-19 23:19:33.187] [GERACAO] [Trabalhador-0] id: 36 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.187] [FILA] [Trabalhador-0] evento: processada id: 36 espera_s: 0.0090 proc_s: 0.0051 fila: -12
+[2026-10-19 23:19:33.188] [GERACAO] [Trabalhador-2] id: 37 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.188] [FILA] [Trabalhador-2] evento: processada id: 37 espera_s: 0.0086 proc_s: 0.0051 fila: -12
+[2026-10-19 23:19:33.189] [CONSULTA] [Produtor-2] evento: enfileirada id: 42 fila: -12
+[2026-10-19 23:19:33.189] [GERACAO] [Trabalhador-3] id: 38 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.189] [FILA] [Trabalhador-3] evento: processada id: 38 espera_s: 0.0076 proc_s: 0.0051 fila: -12
+[2026-10-19 23:19:33.190] [CONSULTA] [Produtor-3] evento: enfileirada id: 43 fila: -11
+[2026-10-19 23:19:33.191] [GERACAO] [Trabalhador-1] id: 39 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.191] [FILA] [Trabalhador-1] evento: processada id: 39 espera_s: 0.0079 proc_s: 0.0051 fila: -13
+[2026-10-19 23:19:33.191] [CONSULTA] [Produtor-0] evento: enfileirada id: 44 fila: -12
+[2026-10-19 23:19:33.193] [GERACAO] [Trabalhador-0] id: 40 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.193] [FILA] [Trabalhador-0] evento: processada id: 40 espera_s: 0.0090 proc_s: 0.0051 fila: -14
+[2026-10-19 23:19:33.193] [CONSULTA] [Produtor-1] evento: enfileirada id: 45 fila: -13
+[2026-10-19 23:19:33.194] [GERACAO] [Trabalhador-2] id: 41 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.194] [FILA] [Trabalhador-2] evento: processada id: 41 espera_s: 0.0085 proc_s: 0.0051 fila: -13
+[2026-10-19 23:19:33.195] [GERACAO] [Trabalhador-3] id: 42 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.195] [FILA] [Trabalhador-3] evento: processada id: 42 espera_s: 0.0074 proc_s: 0.0052 fila: -13
+[2026-10-19 23:19:33.195] [CONSULTA] [Produtor-2] evento: enfileirada id: 46 fila: -13
+[2026-10-19 23:19:33.196] [CONSULTA] [Produtor-3] evento: enfileirada id: 47 fila: -12
+[2026-10-19 23:19:33.197] [GERACAO] [Trabalhador-1] id: 43 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.197] [FILA] [Trabalhador-1] evento: processada id: 43 espera_s: 0.0079 proc_s: 0.0051 fila: -14
+[2026-10-19 23:19:33.198] [CONSULTA] [Produtor-0] evento: enfileirada id: 48 fila: -13
+[2026-10-19 23:19:33.199] [CONSULTA] [Produtor-1] evento: enfileirada id: 49 fila: -14
+[2026-10-19 23:19:33.199] [GERACAO] [Trabalhador-0] id: 44 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.199] [FILA] [Trabalhador-0] evento: processada id: 44 espera_s: 0.0090 proc_s: 0.0051 fila: -14
+[2026-10-19 23:19:33.200] [GERACAO] [Trabalhador-2] id: 45 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.200] [FILA] [Trabalhador-2] evento: processada id: 45 espera_s: 0.0084 proc_s: 0.0051 fila: -14
+[2026-10-19 23:19:33.202] [CONSULTA] [Produtor-2] evento: enfileirada id: 50 fila: -14
+[2026-10-19 23:19:33.202] [GERACAO] [Trabalhador-3] id: 46 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.202] [FILA] [Trabalhador-3] evento: processada id: 46 espera_s: 0.0076 proc_s: 0.0051 fila: -14
+[2026-10-19 23:19:33.203] [CONSULTA] [Produtor-3] evento: enfileirada id: 51 fila: -13
+[2026-10-19 23:19:33.203] [GERACAO] [Trabalhador-1] id: 47 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.203] [FILA] [Trabalhador-1] evento: processada id: 47 espera_s: 0.0080 proc_s: 0.0051 fila: -15
+[2026-10-19 23:19:33.204] [CONSULTA] [Produtor-0] evento: enfileirada id: 52 fila: -14
+[2026-10-19 23:19:33.205] [CONSULTA] [Produtor-1] evento: enfileirada id: 53 fila: -15
+[2026-10-19 23:19:33.206] [GERACAO] [Trabalhador-0] id: 48 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.206] [FILA] [Trabalhador-0] evento: processada id: 48 espera_s: 0.0090 proc_s: 0.0051 fila: -15
+[2026-10-19 23:19:33.206] [GERACAO] [Trabalhador-2] id: 49 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.206] [FILA] [Trabalhador-2] evento: processada id: 49 espera_s: 0.0082 proc_s: 0.0051 fila: -15
+[2026-10-19 23:19:33.208] [CONSULTA] [Produtor-2] evento: enfileirada id: 54 fila: -15
+[2026-10-19 23:19:33.208] [GERACAO] [Trabalhador-3] id: 50 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.208] [FILA] [Trabalhador-3] evento: processada id: 50 espera_s: 0.0074 proc_s: 0.0051 fila: -15
+[2026-10-19 23:19:33.209] [CONSULTA] [Produtor-3] evento: enfileirada id: 55 fila: -14
+[2026-10-19 23:19:33.209] [GERACAO] [Trabalhador-1] id: 51 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.209] [FILA] [Trabalhador-1] evento: processada id: 51 espera_s: 0.0080 proc_s: 0.0051 fila: -16
+[2026-10-19 23:19:33.210] [CONSULTA] [Produtor-0] evento: enfileirada id: 56 fila: -15
+[2026-10-19 23:19:33.212] [CONSULTA] [Produtor-1] evento: enfileirada id: 57 fila: -16
+[2026-10-19 23:19:33.212] [GERACAO] [Trabalhador-0] id: 52 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.212] [FILA] [Trabalhador-0] evento: processada id: 52 espera_s: 0.0090 proc_s: 0.0051 fila: -16
+[2026-10-19 23:19:33.213] [GERACAO] [Trabalhador-2] id: 53 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.213] [FILA] [Trabalhador-2] evento: processada id: 53 espera_s: 0.0084 proc_s: 0.0051 fila: -16
+[2026-10-19 23:19:33.214] [CONSULTA] [Produtor-2] evento: enfileirada id: 58 fila: -16
+[2026-10-19 23:19:33.214] [GERACAO] [Trabalhador-3] id: 54 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.214] [FILA] [Trabalhador-3] evento: processada id: 54 espera_s: 0.0074 proc_s: 0.0051 fila: -16
+[2026-10-19 23:19:33.215] [CONSULTA] [Produtor-3] evento: enfileirada id: 59 fila: -15
+[2026-10-19 23:19:33.216] [GERACAO] [Trabalhador-1] id: 55 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.216] [FILA] [Trabalhador-1] evento: processada id: 55 espera_s: 0.0081 proc_s: 0.0051 fila: -17
+[2026-10-19 23:19:33.217] [CONSULTA] [Produtor-0] evento: enfileirada id: 60 fila: -16
+[2026-10-19 23:19:33.218] [CONSULTA] [Produtor-1] evento: enfileirada id: 61 fila: -17
+[2026-10-19 23:19:33.218] [GERACAO] [Trabalhador-0] id: 56 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.218] [FILA] [Trabalhador-0] evento: processada id: 56 espera_s: 0.0089 proc_s: 0.0051 fila: -17
+[2026-10-19 23:19:33.219] [GERACAO] [Trabalhador-2] id: 57 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.219] [FILA] [Trabalhador-2] evento: processada id: 57 espera_s: 0.0084 proc_s: 0.0051 fila: -17
+[2026-10-19 23:19:33.220] [CONSULTA] [Produtor-2] evento: enfileirada id: 62 fila: -17
+[2026-10-19 23:19:33.220] [GERACAO] [Trabalhador-3] id: 58 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.220] [FILA] [Trabalhador-3] evento: processada id: 58 espera_s: 0.0075 proc_s: 0.0051 fila: -17
+[2026-10-19 23:19:33.221] [CONSULTA] [Produtor-3] evento: enfileirada id: 63 fila: -16
+[2026-10-19 23:19:33.222] [GERACAO] [Trabalhador-1] id: 59 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.222] [FILA] [Trabalhador-1] evento: processada id: 59 espera_s: 0.0080 proc_s: 0.0051 fila: -18
+[2026-10-19 23:19:33.223] [CONSULTA] [Produtor-0] evento: enfileirada id: 64 fila: -17
+[2026-10-19 23:19:33.224] [CONSULTA] [Produtor-1] evento: enfileirada id: 65 fila: -18
+[2026-10-19 23:19:33.224] [GERACAO] [Trabalhador-0] id: 60 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.224] [FILA] [Trabalhador-0] evento: processada id: 60 espera_s: 0.0089 proc_s: 0.0051 fila: -18
+[2026-10-19 23:19:33.225] [GERACAO] [Trabalhador-2] id: 61 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.225] [FILA] [Trabalhador-2] evento: processada id: 61 espera_s: 0.0083 proc_s: 0.0051 fila: -18
+[2026-10-19 23:19:33.227] [CONSULTA] [Produtor-2] evento: enfileirada id: 66 fila: -18
+[2026-10-19 23:19:33.227] [GERACAO] [Trabalhador-3] id: 62 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.227] [FILA] [Trabalhador-3] evento: processada id: 62 espera_s: 0.0074 proc_s: 0.0051 fila: -18
+[2026-10-19 23:19:33.227] [CONSULTA] [Produtor-3] evento: enfileirada id: 67 fila: -17
+[2026-10-19 23:19:33.228] [GERACAO] [Trabalhador-1] id: 63 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.228] [FILA] [Trabalhador-1] evento: processada id: 63 espera_s: 0.0081 proc_s: 0.0052 fila: -19
+[2026-10-19 23:19:33.229] [CONSULTA] [Produtor-0] evento: enfileirada id: 68 fila: -18
+[2026-10-19 23:19:33.231] [GERACAO] [Trabalhador-0] id: 64 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.231] [FILA] [Trabalhador-0] evento: processada id: 64 espera_s: 0.0089 proc_s: 0.0051 fila: -20
+[2026-10-19 23:19:33.231] [CONSULTA] [Produtor-1] evento: enfileirada id: 69 fila: -19
+[2026-10-19 23:19:33.231] [GERACAO] [Trabalhador-2] id: 65 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.231] [FILA] [Trabalhador-2] evento: processada id: 65 espera_s: 0.0083 proc_s: 0.0051 fila: -19
+[2026-10-19 23:19:33.233] [CONSULTA] [Produtor-2] evento: enfileirada id: 70 fila: -19
+[2026-10-19 23:19:33.233] [GERACAO] [Trabalhador-3] id: 66 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.233] [FILA] [Trabalhador-3] evento: processada id: 66 espera_s: 0.0074 proc_s: 0.0052 fila: -19
+[2026-10-19 23:19:33.234] [CONSULTA] [Produtor-3] evento: enfileirada id: 71 fila: -18
+[2026-10-19 23:19:33.235] [GERACAO] [Trabalhador-1] id: 67 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.235] [FILA] [Trabalhador-1] evento: processada id: 67 espera_s: 0.0082 proc_s: 0.0051 fila: -20
+[2026-10-19 23:19:33.235] [CONSULTA] [Produtor-0] evento: enfileirada id: 72 fila: -19
+[2026-10-19 23:19:33.237] [GERACAO] [Trabalhador-0] id: 68 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.237] [FILA] [Trabalhador-0] evento: processada id: 68 espera_s: 0.0089 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.237] [CONSULTA] [Produtor-1] evento: enfileirada id: 73 fila: -20
+[2026-10-19 23:19:33.238] [GERACAO] [Trabalhador-2] id: 69 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.238] [FILA] [Trabalhador-2] evento: processada id: 69 espera_s: 0.0083 proc_s: 0.0051 fila: -20
+[2026-10-19 23:19:33.239] [CONSULTA] [Produtor-2] evento: enfileirada id: 74 fila: -20
+[2026-10-19 23:19:33.239] [GERACAO] [Trabalhador-3] id: 70 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.239] [FILA] [Trabalhador-3] evento: processada id: 70 espera_s: 0.0075 proc_s: 0.0052 fila: -20
+[2026-10-19 23:19:33.240] [CONSULTA] [Produtor-3] evento: enfileirada id: 75 fila: -19
+[2026-10-19 23:19:33.241] [GERACAO] [Trabalhador-1] id: 71 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.241] [FILA] [Trabalhador-1] evento: processada id: 71 espera_s: 0.0083 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.242] [CONSULTA] [Produtor-0] evento: enfileirada id: 76 fila: -20
+[2026-10-19 23:19:33.243] [GERACAO] [Trabalhador-0] id: 72 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.243] [FILA] [Trabalhador-0] evento: processada id: 72 espera_s: 0.0090 proc_s: 0.0052 fila: -22
+[2026-10-19 23:19:33.243] [CONSULTA] [Produtor-1] evento: enfileirada id: 77 fila: -21
+[2026-10-19 23:19:33.244] [GERACAO] [Trabalhador-2] id: 73 simulado: io duracao: 0.0050s
+[2026-10-19 23:19:33.244] [FILA] [Trabalhador-2] evento: processada id: 73 espera_s: 0.0082 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.246] [CONSULTA] [Produtor-2] evento: enfileirada id: 78 fila: -21
+[2026-10-19 23:19:33.246] [GERACAO] [Trabalhador-3] id: 74 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.246] [FILA] [Trabalhador-3] evento: processada id: 74 espera_s: 0.0075 proc_s: 0.0053 fila: -21
+[2026-10-19 23:19:33.246] [CONSULTA] [Produtor-3] evento: enfileirada id: 79 fila: -20
+[2026-10-19 23:19:33.247] [GERACAO] [Trabalhador-1] id: 75 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.247] [FILA] [Trabalhador-1] evento: processada id: 75 espera_s: 0.0082 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.248] [CONSULTA] [Produtor-0] evento: enfileirada id: 80 fila: -20
+[2026-10-19 23:19:33.249] [CONSULTA] [Produtor-1] evento: enfileirada id: 81 fila: -21
+[2026-10-19 23:19:33.249] [GERACAO] [Trabalhador-0] id: 76 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.250] [FILA] [Trabalhador-0] evento: processada id: 76 espera_s: 0.0090 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.250] [GERACAO] [Trabalhador-2] id: 77 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.250] [FILA] [Trabalhador-2] evento: processada id: 77 espera_s: 0.0081 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.252] [CONSULTA] [Produtor-2] evento: enfileirada id: 82 fila: -21
+[2026-10-19 23:19:33.252] [GERACAO] [Trabalhador-3] id: 78 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.252] [FILA] [Trabalhador-3] evento: processada id: 78 espera_s: 0.0077 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.253] [CONSULTA] [Produtor-3] evento: enfileirada id: 83 fila: -20
+[2026-10-19 23:19:33.253] [GERACAO] [Trabalhador-1] id: 79 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.253] [FILA] [Trabalhador-1] evento: processada id: 79 espera_s: 0.0082 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.254] [CONSULTA] [Produtor-0] evento: enfileirada id: 84 fila: -20
+[2026-10-19 23:19:33.256] [CONSULTA] [Produtor-1] evento: enfileirada id: 85 fila: -21
+[2026-10-19 23:19:33.256] [GERACAO] [Trabalhador-0] id: 80 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.256] [FILA] [Trabalhador-0] evento: processada id: 80 espera_s: 0.0089 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.256] [GERACAO] [Trabalhador-2] id: 81 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.256] [FILA] [Trabalhador-2] evento: processada id: 81 espera_s: 0.0081 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.258] [CONSULTA] [Produtor-2] evento: enfileirada id: 86 fila: -21
+[2026-10-19 23:19:33.258] [GERACAO] [Trabalhador-3] id: 82 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.258] [FILA] [Trabalhador-3] evento: processada id: 82 espera_s: 0.0075 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.259] [CONSULTA] [Produtor-3] evento: enfileirada id: 87 fila: -20
+[2026-10-19 23:19:33.260] [GERACAO] [Trabalhador-1] id: 83 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.260] [FILA] [Trabalhador-1] evento: processada id: 83 espera_s: 0.0081 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.261] [CONSULTA] [Produtor-0] evento: enfileirada id: 88 fila: -20
+[2026-10-19 23:19:33.262] [CONSULTA] [Produtor-1] evento: enfileirada id: 89 fila: -21
+[2026-10-19 23:19:33.262] [GERACAO] [Trabalhador-0] id: 84 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.262] [FILA] [Trabalhador-0] evento: processada id: 84 espera_s: 0.0087 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.263] [GERACAO] [Trabalhador-2] id: 85 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.263] [FILA] [Trabalhador-2] evento: processada id: 85 espera_s: 0.0082 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.264] [CONSULTA] [Produtor-2] evento: enfileirada id: 90 fila: -21
+[2026-10-19 23:19:33.265] [GERACAO] [Trabalhador-3] id: 86 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.265] [FILA] [Trabalhador-3] evento: processada id: 86 espera_s: 0.0076 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.265] [CONSULTA] [Produtor-3] evento: enfileirada id: 91 fila: -20
+[2026-10-19 23:19:33.266] [GERACAO] [Trabalhador-1] id: 87 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.266] [FILA] [Trabalhador-1] evento: processada id: 87 espera_s: 0.0082 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.267] [CONSULTA] [Produtor-0] evento: enfileirada id: 92 fila: -20
+[2026-10-19 23:19:33.268] [CONSULTA] [Produtor-1] evento: enfileirada id: 93 fila: -21
+[2026-10-19 23:19:33.268] [GERACAO] [Trabalhador-0] id: 88 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.268] [FILA] [Trabalhador-0] evento: processada id: 88 espera_s: 0.0088 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.269] [GERACAO] [Trabalhador-2] id: 89 simulado: io duracao: 0.0050s
+[2026-10-19 23:19:33.269] [FILA] [Trabalhador-2] evento: processada id: 89 espera_s: 0.0081 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.271] [CONSULTA] [Produtor-2] evento: enfileirada id: 94 fila: -21
+[2026-10-19 23:19:33.271] [GERACAO] [Trabalhador-3] id: 90 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.271] [FILA] [Trabalhador-3] evento: processada id: 90 espera_s: 0.0076 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.271] [CONSULTA] [Produtor-3] evento: enfileirada id: 95 fila: -20
+[2026-10-19 23:19:33.272] [GERACAO] [Trabalhador-1] id: 91 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.272] [FILA] [Trabalhador-1] evento: processada id: 91 espera_s: 0.0082 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.273] [CONSULTA] [Produtor-0] evento: enfileirada id: 96 fila: -20
+[2026-10-19 23:19:33.274] [CONSULTA] [Produtor-1] evento: enfileirada id: 97 fila: -21
+[2026-10-19 23:19:33.275] [GERACAO] [Trabalhador-0] id: 92 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.275] [FILA] [Trabalhador-0] evento: processada id: 92 espera_s: 0.0088 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.275] [GERACAO] [Trabalhador-2] id: 93 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.275] [FILA] [Trabalhador-2] evento: processada id: 93 espera_s: 0.0081 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.277] [CONSULTA] [Produtor-2] evento: enfileirada id: 98 fila: -21
+[2026-10-19 23:19:33.277] [GERACAO] [Trabalhador-3] id: 94 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.277] [FILA] [Trabalhador-3] evento: processada id: 94 espera_s: 0.0076 proc_s: 0.0051 fila: -21
+[2026-10-19 23:19:33.277] [CONSULTA] [Produtor-3] evento: enfileirada id: 99 fila: -22
+[2026-10-19 23:19:33.278] [GERACAO] [Trabalhador-1] id: 95 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.278] [FILA] [Trabalhador-1] evento: processada id: 95 espera_s: 0.0083 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.279] [CONSULTA] [Produtor-0] evento: enfileirada id: 100 fila: -22
+[2026-10-19 23:19:33.281] [CONSULTA] [Produtor-1] evento: enfileirada id: 101 fila: -23
+[2026-10-19 23:19:33.281] [GERACAO] [Trabalhador-0] id: 96 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.281] [FILA] [Trabalhador-0] evento: processada id: 96 espera_s: 0.0088 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.281] [GERACAO] [Trabalhador-2] id: 97 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.281] [FILA] [Trabalhador-2] evento: processada id: 97 espera_s: 0.0081 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.283] [CONSULTA] [Produtor-2] evento: enfileirada id: 102 fila: -23
+[2026-10-19 23:19:33.283] [GERACAO] [Trabalhador-3] id: 98 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.283] [FILA] [Trabalhador-3] evento: processada id: 98 espera_s: 0.0075 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.284] [CONSULTA] [Produtor-3] evento: enfileirada id: 103 fila: -22
+[2026-10-19 23:19:33.285] [GERACAO] [Trabalhador-1] id: 99 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.285] [FILA] [Trabalhador-1] evento: processada id: 99 espera_s: 0.0083 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.286] [CONSULTA] [Produtor-0] evento: enfileirada id: 104 fila: -22
+[2026-10-19 23:19:33.287] [CONSULTA] [Produtor-1] evento: enfileirada id: 105 fila: -23
+[2026-10-19 23:19:33.287] [GERACAO] [Trabalhador-0] id: 100 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.287] [FILA] [Trabalhador-0] evento: processada id: 100 espera_s: 0.0089 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.288] [GERACAO] [Trabalhador-2] id: 101 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.288] [FILA] [Trabalhador-2] evento: processada id: 101 espera_s: 0.0081 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.289] [CONSULTA] [Produtor-2] evento: enfileirada id: 106 fila: -23
+[2026-10-19 23:19:33.290] [GERACAO] [Trabalhador-3] id: 102 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.290] [FILA] [Trabalhador-3] evento: processada id: 102 espera_s: 0.0076 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.290] [CONSULTA] [Produtor-3] evento: enfileirada id: 107 fila: -22
+[2026-10-19 23:19:33.291] [GERACAO] [Trabalhador-1] id: 103 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.291] [FILA] [Trabalhador-1] evento: processada id: 103 espera_s: 0.0084 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.292] [CONSULTA] [Produtor-0] evento: enfileirada id: 108 fila: -22
+[2026-10-19 23:19:33.293] [GERACAO] [Trabalhador-0] id: 104 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.293] [FILA] [Trabalhador-0] evento: processada id: 104 espera_s: 0.0089 proc_s: 0.0052 fila: -23
+[2026-10-19 23:19:33.293] [CONSULTA] [Produtor-1] evento: enfileirada id: 109 fila: -23
+[2026-10-19 23:19:33.294] [GERACAO] [Trabalhador-2] id: 105 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.294] [FILA] [Trabalhador-2] evento: processada id: 105 espera_s: 0.0081 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.295] [FALHA] [Trabalhador-2] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.296] [GERACAO] [Trabalhador-3] id: 106 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.296] [FILA] [Trabalhador-3] evento: processada id: 106 espera_s: 0.0075 proc_s: 0.0051 fila: -23
+[2026-10-19 23:19:33.296] [CONSULTA] [Produtor-2] evento: enfileirada id: 110 fila: -23
+[2026-10-19 23:19:33.296] [CONSULTA] [Produtor-3] evento: enfileirada id: 111 fila: -23
+[2026-10-19 23:19:33.297] [GERACAO] [Trabalhador-1] id: 107 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.297] [FILA] [Trabalhador-1] evento: processada id: 107 espera_s: 0.0083 proc_s: 0.0051 fila: -26
+[2026-10-19 23:19:33.297] [CONSULTA] [Produtor-0] evento: enfileirada id: 112 fila: -24
+[2026-10-19 23:19:33.298] [CONSULTA] [Produtor-1] evento: enfileirada id: 113 fila: -23
+[2026-10-19 23:19:33.300] [CONSULTA] [Produtor-2] evento: enfileirada id: 114 fila: -24
+[2026-10-19 23:19:33.300] [GERACAO] [Trabalhador-0] id: 108 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.300] [FILA] [Trabalhador-0] evento: processada id: 108 espera_s: 0.0091 proc_s: 0.0051 fila: -24
+[2026-10-19 23:19:33.301] [GERACAO] [Trabalhador-2] id: 109 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.301] [FILA] [Trabalhador-2] evento: processada id: 109 espera_s: 0.0093 proc_s: 0.0052 fila: -25
+[2026-10-19 23:19:33.302] [GERACAO] [Trabalhador-3] id: 111 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.302] [FILA] [Trabalhador-3] evento: processada id: 111 espera_s: 0.0070 proc_s: 0.0051 fila: -25
+[2026-10-19 23:19:33.302] [CONSULTA] [Produtor-3] evento: enfileirada id: 115 fila: -24
+[2026-10-19 23:19:33.304] [GERACAO] [Trabalhador-1] id: 112 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.304] [FILA] [Trabalhador-1] evento: processada id: 112 espera_s: 0.0065 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.304] [CONSULTA] [Produtor-0] evento: enfileirada id: 116 fila: -25
+[2026-10-19 23:19:33.304] [CONSULTA] [Produtor-1] evento: enfileirada id: 117 fila: -24
+[2026-10-19 23:19:33.306] [CONSULTA] [Produtor-2] evento: enfileirada id: 118 fila: -25
+[2026-10-19 23:19:33.306] [GERACAO] [Trabalhador-0] id: 113 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.306] [FILA] [Trabalhador-0] evento: processada id: 113 espera_s: 0.0073 proc_s: 0.0052 fila: -25
+[2026-10-19 23:19:33.308] [GERACAO] [Trabalhador-2] id: 114 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.308] [FILA] [Trabalhador-2] evento: processada id: 114 espera_s: 0.0067 proc_s: 0.0051 fila: -26
+[2026-10-19 23:19:33.308] [CONSULTA] [Produtor-3] evento: enfileirada id: 119 fila: -25
+[2026-10-19 23:19:33.308] [GERACAO] [Trabalhador-3] id: 115 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.308] [FILA] [Trabalhador-3] evento: processada id: 115 espera_s: 0.0070 proc_s: 0.0051 fila: -25
+[2026-10-19 23:19:33.310] [GERACAO] [Trabalhador-1] id: 116 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.310] [FILA] [Trabalhador-1] evento: processada id: 116 espera_s: 0.0073 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.310] [CONSULTA] [Produtor-0] evento: enfileirada id: 120 fila: -26
+[2026-10-19 23:19:33.311] [CONSULTA] [Produtor-1] evento: enfileirada id: 121 fila: -25
+[2026-10-19 23:19:33.312] [CONSULTA] [Produtor-2] evento: enfileirada id: 122 fila: -26
+[2026-10-19 23:19:33.312] [GERACAO] [Trabalhador-0] id: 117 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.312] [FILA] [Trabalhador-0] evento: processada id: 117 espera_s: 0.0090 proc_s: 0.0051 fila: -26
+[2026-10-19 23:19:33.314] [GERACAO] [Trabalhador-2] id: 118 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.314] [FILA] [Trabalhador-2] evento: processada id: 118 espera_s: 0.0092 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.315] [CONSULTA] [Produtor-3] evento: enfileirada id: 123 fila: -26
+[2026-10-19 23:19:33.315] [GERACAO] [Trabalhador-3] id: 119 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.315] [FILA] [Trabalhador-3] evento: processada id: 119 espera_s: 0.0072 proc_s: 0.0052 fila: -26
+[2026-10-19 23:19:33.316] [GERACAO] [Trabalhador-1] id: 120 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.316] [FILA] [Trabalhador-1] evento: processada id: 120 espera_s: 0.0073 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.316] [CONSULTA] [Produtor-0] evento: enfileirada id: 124 fila: -26
+[2026-10-19 23:19:33.317] [CONSULTA] [Produtor-1] evento: enfileirada id: 125 fila: -25
+[2026-10-19 23:19:33.319] [CONSULTA] [Produtor-2] evento: enfileirada id: 126 fila: -26
+[2026-10-19 23:19:33.319] [GERACAO] [Trabalhador-0] id: 121 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.319] [FILA] [Trabalhador-0] evento: processada id: 121 espera_s: 0.0090 proc_s: 0.0052 fila: -26
+[2026-10-19 23:19:33.320] [GERACAO] [Trabalhador-2] id: 122 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.320] [FILA] [Trabalhador-2] evento: processada id: 122 espera_s: 0.0093 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.321] [CONSULTA] [Produtor-3] evento: enfileirada id: 127 fila: -26
+[2026-10-19 23:19:33.321] [GERACAO] [Trabalhador-3] id: 123 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.321] [FILA] [Trabalhador-3] evento: processada id: 123 espera_s: 0.0075 proc_s: 0.0051 fila: -26
+[2026-10-19 23:19:33.322] [GERACAO] [Trabalhador-1] id: 124 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.323] [FILA] [Trabalhador-1] evento: processada id: 124 espera_s: 0.0073 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.323] [CONSULTA] [Produtor-0] evento: enfileirada id: 128 fila: -26
+[2026-10-19 23:19:33.323] [CONSULTA] [Produtor-1] evento: enfileirada id: 129 fila: -25
+[2026-10-19 23:19:33.325] [CONSULTA] [Produtor-2] evento: enfileirada id: 130 fila: -26
+[2026-10-19 23:19:33.325] [GERACAO] [Trabalhador-0] id: 125 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.325] [FILA] [Trabalhador-0] evento: processada id: 125 espera_s: 0.0090 proc_s: 0.0051 fila: -26
+[2026-10-19 23:19:33.327] [GERACAO] [Trabalhador-2] id: 126 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.327] [FILA] [Trabalhador-2] evento: processada id: 126 espera_s: 0.0093 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.327] [GERACAO] [Trabalhador-3] id: 127 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.327] [FILA] [Trabalhador-3] evento: processada id: 127 espera_s: 0.0074 proc_s: 0.0051 fila: -26
+[2026-10-19 23:19:33.327] [CONSULTA] [Produtor-3] evento: enfileirada id: 131 fila: -26
+[2026-10-19 23:19:33.329] [GERACAO] [Trabalhador-1] id: 128 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.329] [FILA] [Trabalhador-1] evento: processada id: 128 espera_s: 0.0073 proc_s: 0.0052 fila: -29
+[2026-10-19 23:19:33.329] [CONSULTA] [Produtor-0] evento: enfileirada id: 132 fila: -27
+[2026-10-19 23:19:33.330] [CONSULTA] [Produtor-1] evento: enfileirada id: 133 fila: -26
+[2026-10-19 23:19:33.331] [CONSULTA] [Produtor-2] evento: enfileirada id: 134 fila: -27
+[2026-10-19 23:19:33.331] [GERACAO] [Trabalhador-0] id: 129 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.331] [FILA] [Trabalhador-0] evento: processada id: 129 espera_s: 0.0090 proc_s: 0.0052 fila: -27
+[2026-10-19 23:19:33.333] [GERACAO] [Trabalhador-2] id: 130 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.333] [FILA] [Trabalhador-2] evento: processada id: 130 espera_s: 0.0092 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.333] [GERACAO] [Trabalhador-3] id: 131 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.334] [FILA] [Trabalhador-3] evento: processada id: 131 espera_s: 0.0075 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.334] [CONSULTA] [Produtor-3] evento: enfileirada id: 135 fila: -27
+[2026-10-19 23:19:33.335] [FALHA] [Trabalhador-3] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.335] [GERACAO] [Trabalhador-1] id: 132 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.335] [FILA] [Trabalhador-1] evento: processada id: 132 espera_s: 0.0073 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.335] [CONSULTA] [Produtor-0] evento: enfileirada id: 136 fila: -27
+[2026-10-19 23:19:33.336] [CONSULTA] [Produtor-1] evento: enfileirada id: 137 fila: -27
+[2026-10-19 23:19:33.336] [FALHA] [Trabalhador-1] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.337] [CONSULTA] [Produtor-2] evento: enfileirada id: 138 fila: -27
+[2026-10-19 23:19:33.337] [CONSULTA] [Produtor-3] evento: enfileirada id: 139 fila: -27
+[2026-10-19 23:19:33.337] [GERACAO] [Trabalhador-0] id: 133 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.338] [FILA] [Trabalhador-0] evento: processada id: 133 espera_s: 0.0091 proc_s: 0.0051 fila: -29
+[2026-10-19 23:19:33.339] [CONSULTA] [Produtor-0] evento: enfileirada id: 140 fila: -28
+[2026-10-19 23:19:33.339] [GERACAO] [Trabalhador-2] id: 134 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.339] [FILA] [Trabalhador-2] evento: processada id: 134 espera_s: 0.0093 proc_s: 0.0051 fila: -30
+[2026-10-19 23:19:33.340] [CONSULTA] [Produtor-1] evento: enfileirada id: 141 fila: -29
+[2026-10-19 23:19:33.341] [GERACAO] [Trabalhador-3] id: 135 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.341] [FILA] [Trabalhador-3] evento: processada id: 135 espera_s: 0.0086 proc_s: 0.0051 fila: -30
+[2026-10-19 23:19:33.342] [CONSULTA] [Produtor-2] evento: enfileirada id: 142 fila: -29
+[2026-10-19 23:19:33.343] [GERACAO] [Trabalhador-1] id: 137 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.343] [FILA] [Trabalhador-1] evento: processada id: 137 espera_s: 0.0078 proc_s: 0.0052 fila: -30
+[2026-10-19 23:19:33.343] [CONSULTA] [Produtor-3] evento: enfileirada id: 143 fila: -29
+[2026-10-19 23:19:33.344] [GERACAO] [Trabalhador-0] id: 139 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.344] [FILA] [Trabalhador-0] evento: processada id: 139 espera_s: 0.0050 proc_s: 0.0052 fila: -31
+[2026-10-19 23:19:33.345] [CONSULTA] [Produtor-0] evento: enfileirada id: 144 fila: -30
+[2026-10-19 23:19:33.346] [GERACAO] [Trabalhador-2] id: 140 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.346] [FILA] [Trabalhador-2] evento: processada id: 140 espera_s: 0.0051 proc_s: 0.0051 fila: -32
+[2026-10-19 23:19:33.346] [CONSULTA] [Produtor-1] evento: enfileirada id: 145 fila: -31
+[2026-10-19 23:19:33.347] [GERACAO] [Trabalhador-3] id: 141 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.347] [FILA] [Trabalhador-3] evento: processada id: 141 espera_s: 0.0063 proc_s: 0.0051 fila: -32
+[2026-10-19 23:19:33.348] [CONSULTA] [Produtor-2] evento: enfileirada id: 146 fila: -31
+[2026-10-19 23:19:33.349] [GERACAO] [Trabalhador-1] id: 142 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.349] [FILA] [Trabalhador-1] evento: processada id: 142 espera_s: 0.0067 proc_s: 0.0052 fila: -32
+[2026-10-19 23:19:33.350] [CONSULTA] [Produtor-3] evento: enfileirada id: 147 fila: -31
+[2026-10-19 23:19:33.350] [GERACAO] [Trabalhador-0] id: 143 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.350] [FILA] [Trabalhador-0] evento: processada id: 143 espera_s: 0.0076 proc_s: 0.0051 fila: -31
+[2026-10-19 23:19:33.351] [CONSULTA] [Produtor-0] evento: enfileirada id: 148 fila: -32
+[2026-10-19 23:19:33.352] [GERACAO] [Trabalhador-2] id: 144 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.352] [FILA] [Trabalhador-2] evento: processada id: 144 espera_s: 0.0082 proc_s: 0.0051 fila: -32
+[2026-10-19 23:19:33.352] [CONSULTA] [Produtor-1] evento: enfileirada id: 149 fila: -31
+[2026-10-19 23:19:33.354] [GERACAO] [Trabalhador-3] id: 145 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.354] [FILA] [Trabalhador-3] evento: processada id: 145 espera_s: 0.0086 proc_s: 0.0051 fila: -32
+[2026-10-19 23:19:33.354] [CONSULTA] [Produtor-2] evento: enfileirada id: 150 fila: -31
+[2026-10-19 23:19:33.355] [GERACAO] [Trabalhador-1] id: 146 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.355] [FILA] [Trabalhador-1] evento: processada id: 146 espera_s: 0.0085 proc_s: 0.0052 fila: -32
+[2026-10-19 23:19:33.356] [CONSULTA] [Produtor-3] evento: enfileirada id: 151 fila: -31
+[2026-10-19 23:19:33.356] [GERACAO] [Trabalhador-0] id: 147 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.356] [FILA] [Trabalhador-0] evento: processada id: 147 espera_s: 0.0079 proc_s: 0.0051 fila: -31
+[2026-10-19 23:19:33.358] [CONSULTA] [Produtor-0] evento: enfileirada id: 152 fila: -32
+[2026-10-19 23:19:33.358] [GERACAO] [Trabalhador-2] id: 148 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.358] [FILA] [Trabalhador-2] evento: processada id: 148 espera_s: 0.0081 proc_s: 0.0051 fila: -32
+[2026-10-19 23:19:33.359] [CONSULTA] [Produtor-1] evento: enfileirada id: 153 fila: -31
+[2026-10-19 23:19:33.360] [GERACAO] [Trabalhador-3] id: 149 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.360] [FILA] [Trabalhador-3] evento: processada id: 149 espera_s: 0.0086 proc_s: 0.0051 fila: -32
+[2026-10-19 23:19:33.360] [CONSULTA] [Produtor-2] evento: enfileirada id: 154 fila: -31
+[2026-10-19 23:19:33.362] [GERACAO] [Trabalhador-1] id: 150 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.362] [FILA] [Trabalhador-1] evento: processada id: 150 espera_s: 0.0085 proc_s: 0.0052 fila: -32
+[2026-10-19 23:19:33.362] [CONSULTA] [Produtor-3] evento: enfileirada id: 155 fila: -31
+[2026-10-19 23:19:33.363] [GERACAO] [Trabalhador-0] id: 151 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.363] [FILA] [Trabalhador-0] evento: processada id: 151 espera_s: 0.0078 proc_s: 0.0051 fila: -31
+[2026-10-19 23:19:33.364] [CONSULTA] [Produtor-0] evento: enfileirada id: 156 fila: -31
+[2026-10-19 23:19:33.364] [GERACAO] [Trabalhador-2] id: 152 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.364] [FILA] [Trabalhador-2] evento: processada id: 152 espera_s: 0.0080 proc_s: 0.0051 fila: -31
+[2026-10-19 23:19:33.365] [CONSULTA] [Produtor-1] evento: enfileirada id: 157 fila: -30
+[2026-10-19 23:19:33.366] [GERACAO] [Trabalhador-3] id: 153 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.366] [FILA] [Trabalhador-3] evento: processada id: 153 espera_s: 0.0087 proc_s: 0.0051 fila: -31
+[2026-10-19 23:19:33.367] [CONSULTA] [Produtor-2] evento: enfileirada id: 158 fila: -30
+[2026-10-19 23:19:33.368] [GERACAO] [Trabalhador-1] id: 154 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.368] [FILA] [Trabalhador-1] evento: processada id: 154 espera_s: 0.0087 proc_s: 0.0051 fila: -31
+[2026-10-19 23:19:33.369] [CONSULTA] [Produtor-3] evento: enfileirada id: 159 fila: -30
+[2026-10-19 23:19:33.369] [GERACAO] [Trabalhador-0] id: 155 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.369] [FILA] [Trabalhador-0] evento: processada id: 155 espera_s: 0.0077 proc_s: 0.0051 fila: -30
+[2026-10-19 23:19:33.370] [CONSULTA] [Produtor-0] evento: enfileirada id: 160 fila: -30
+[2026-10-19 23:19:33.371] [GERACAO] [Trabalhador-2] id: 156 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.371] [FILA] [Trabalhador-2] evento: processada id: 156 espera_s: 0.0078 proc_s: 0.0051 fila: -30
+[2026-10-19 23:19:33.371] [CONSULTA] [Produtor-1] evento: enfileirada id: 161 fila: -29
+[2026-10-19 23:19:33.373] [GERACAO] [Trabalhador-3] id: 157 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.373] [FILA] [Trabalhador-3] evento: processada id: 157 espera_s: 0.0087 proc_s: 0.0051 fila: -30
+[2026-10-19 23:19:33.373] [CONSULTA] [Produtor-2] evento: enfileirada id: 162 fila: -29
+[2026-10-19 23:19:33.374] [GERACAO] [Trabalhador-1] id: 158 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.374] [FILA] [Trabalhador-1] evento: processada id: 158 espera_s: 0.0088 proc_s: 0.0051 fila: -30
+[2026-10-19 23:19:33.375] [CONSULTA] [Produtor-3] evento: enfileirada id: 163 fila: -29
+[2026-10-19 23:19:33.375] [GERACAO] [Trabalhador-0] id: 159 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.375] [FILA] [Trabalhador-0] evento: processada id: 159 espera_s: 0.0076 proc_s: 0.0051 fila: -29
+[2026-10-19 23:19:33.377] [CONSULTA] [Produtor-0] evento: enfileirada id: 164 fila: -29
+[2026-10-19 23:19:33.377] [GERACAO] [Trabalhador-2] id: 160 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.377] [FILA] [Trabalhador-2] evento: processada id: 160 espera_s: 0.0076 proc_s: 0.0051 fila: -29
+[2026-10-19 23:19:33.377] [CONSULTA] [Produtor-1] evento: enfileirada id: 165 fila: -28
+[2026-10-19 23:19:33.379] [GERACAO] [Trabalhador-3] id: 161 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.379] [FILA] [Trabalhador-3] evento: processada id: 161 espera_s: 0.0088 proc_s: 0.0051 fila: -29
+[2026-10-19 23:19:33.379] [CONSULTA] [Produtor-2] evento: enfileirada id: 166 fila: -28
+[2026-10-19 23:19:33.381] [GERACAO] [Trabalhador-1] id: 162 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.381] [FILA] [Trabalhador-1] evento: processada id: 162 espera_s: 0.0088 proc_s: 0.0051 fila: -29
+[2026-10-19 23:19:33.381] [CONSULTA] [Produtor-3] evento: enfileirada id: 167 fila: -28
+[2026-10-19 23:19:33.381] [GERACAO] [Trabalhador-0] id: 163 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.381] [FILA] [Trabalhador-0] evento: processada id: 163 espera_s: 0.0076 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.383] [CONSULTA] [Produtor-0] evento: enfileirada id: 168 fila: -28
+[2026-10-19 23:19:33.383] [GERACAO] [Trabalhador-2] id: 164 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.383] [FILA] [Trabalhador-2] evento: processada id: 164 espera_s: 0.0076 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.384] [CONSULTA] [Produtor-1] evento: enfileirada id: 169 fila: -27
+[2026-10-19 23:19:33.385] [GERACAO] [Trabalhador-3] id: 165 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.385] [FILA] [Trabalhador-3] evento: processada id: 165 espera_s: 0.0088 proc_s: 0.0051 fila: -29
+[2026-10-19 23:19:33.385] [CONSULTA] [Produtor-2] evento: enfileirada id: 170 fila: -28
+[2026-10-19 23:19:33.387] [GERACAO] [Trabalhador-1] id: 166 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.387] [FILA] [Trabalhador-1] evento: processada id: 166 espera_s: 0.0088 proc_s: 0.0051 fila: -29
+[2026-10-19 23:19:33.387] [CONSULTA] [Produtor-3] evento: enfileirada id: 171 fila: -28
+[2026-10-19 23:19:33.388] [GERACAO] [Trabalhador-0] id: 167 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.388] [FILA] [Trabalhador-0] evento: processada id: 167 espera_s: 0.0077 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.389] [CONSULTA] [Produtor-0] evento: enfileirada id: 172 fila: -28
+[2026-10-19 23:19:33.389] [GERACAO] [Trabalhador-2] id: 168 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.389] [FILA] [Trabalhador-2] evento: processada id: 168 espera_s: 0.0076 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.390] [CONSULTA] [Produtor-1] evento: enfileirada id: 173 fila: -27
+[2026-10-19 23:19:33.391] [GERACAO] [Trabalhador-3] id: 169 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.391] [FILA] [Trabalhador-3] evento: processada id: 169 espera_s: 0.0088 proc_s: 0.0051 fila: -29
+[2026-10-19 23:19:33.392] [CONSULTA] [Produtor-2] evento: enfileirada id: 174 fila: -28
+[2026-10-19 23:19:33.393] [GERACAO] [Trabalhador-1] id: 170 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.393] [FILA] [Trabalhador-1] evento: processada id: 170 espera_s: 0.0088 proc_s: 0.0052 fila: -29
+[2026-10-19 23:19:33.394] [CONSULTA] [Produtor-3] evento: enfileirada id: 175 fila: -28
+[2026-10-19 23:19:33.394] [GERACAO] [Trabalhador-0] id: 171 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.394] [FILA] [Trabalhador-0] evento: processada id: 171 espera_s: 0.0075 proc_s: 0.0052 fila: -28
+[2026-10-19 23:19:33.396] [CONSULTA] [Produtor-0] evento: enfileirada id: 176 fila: -28
+[2026-10-19 23:19:33.396] [GERACAO] [Trabalhador-2] id: 172 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.396] [FILA] [Trabalhador-2] evento: processada id: 172 espera_s: 0.0075 proc_s: 0.0052 fila: -28
+[2026-10-19 23:19:33.396] [CONSULTA] [Produtor-1] evento: enfileirada id: 177 fila: -27
+[2026-10-19 23:19:33.398] [GERACAO] [Trabalhador-3] id: 173 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.398] [FILA] [Trabalhador-3] evento: processada id: 173 espera_s: 0.0088 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.398] [CONSULTA] [Produtor-2] evento: enfileirada id: 178 fila: -27
+[2026-10-19 23:19:33.400] [GERACAO] [Trabalhador-1] id: 174 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.400] [FILA] [Trabalhador-1] evento: processada id: 174 espera_s: 0.0090 proc_s: 0.0052 fila: -28
+[2026-10-19 23:19:33.400] [CONSULTA] [Produtor-3] evento: enfileirada id: 179 fila: -27
+[2026-10-19 23:19:33.400] [GERACAO] [Trabalhador-0] id: 175 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.400] [FILA] [Trabalhador-0] evento: processada id: 175 espera_s: 0.0078 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.402] [CONSULTA] [Produtor-0] evento: enfileirada id: 180 fila: -27
+[2026-10-19 23:19:33.402] [GERACAO] [Trabalhador-2] id: 176 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.402] [FILA] [Trabalhador-2] evento: processada id: 176 espera_s: 0.0077 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.403] [CONSULTA] [Produtor-1] evento: enfileirada id: 181 fila: -26
+[2026-10-19 23:19:33.404] [GERACAO] [Trabalhador-3] id: 177 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.404] [FILA] [Trabalhador-3] evento: processada id: 177 espera_s: 0.0088 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.404] [CONSULTA] [Produtor-2] evento: enfileirada id: 182 fila: -26
+[2026-10-19 23:19:33.406] [GERACAO] [Trabalhador-1] id: 178 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.406] [FILA] [Trabalhador-1] evento: processada id: 178 espera_s: 0.0092 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.406] [CONSULTA] [Produtor-3] evento: enfileirada id: 183 fila: -26
+[2026-10-19 23:19:33.406] [GERACAO] [Trabalhador-0] id: 179 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.407] [FILA] [Trabalhador-0] evento: processada id: 179 espera_s: 0.0077 proc_s: 0.0051 fila: -26
+[2026-10-19 23:19:33.408] [GERACAO] [Trabalhador-2] id: 180 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.408] [FILA] [Trabalhador-2] evento: processada id: 180 espera_s: 0.0075 proc_s: 0.0052 fila: -27
+[2026-10-19 23:19:33.408] [CONSULTA] [Produtor-0] evento: enfileirada id: 184 fila: -27
+[2026-10-19 23:19:33.409] [CONSULTA] [Produtor-1] evento: enfileirada id: 185 fila: -27
+[2026-10-19 23:19:33.410] [GERACAO] [Trabalhador-3] id: 181 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.410] [FILA] [Trabalhador-3] evento: processada id: 181 espera_s: 0.0088 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.411] [CONSULTA] [Produtor-2] evento: enfileirada id: 186 fila: -27
+[2026-10-19 23:19:33.412] [GERACAO] [Trabalhador-1] id: 182 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.412] [FILA] [Trabalhador-1] evento: processada id: 182 espera_s: 0.0090 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.413] [CONSULTA] [Produtor-3] evento: enfileirada id: 187 fila: -27
+[2026-10-19 23:19:33.413] [GERACAO] [Trabalhador-0] id: 183 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.413] [FILA] [Trabalhador-0] evento: processada id: 183 espera_s: 0.0077 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.414] [FALHA] [Trabalhador-0] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.414] [CONSULTA] [Produtor-0] evento: enfileirada id: 188 fila: -27
+[2026-10-19 23:19:33.415] [GERACAO] [Trabalhador-2] id: 185 simulado: io duracao: 0.0050s
+[2026-10-19 23:19:33.415] [FILA] [Trabalhador-2] evento: processada id: 185 espera_s: 0.0069 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.415] [CONSULTA] [Produtor-1] evento: enfileirada id: 189 fila: -26
+[2026-10-19 23:19:33.416] [FALHA] [Trabalhador-2] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.416] [CONSULTA] [Produtor-2] evento: enfileirada id: 190 fila: -27
+[2026-10-19 23:19:33.416] [GERACAO] [Trabalhador-3] id: 186 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.416] [FILA] [Trabalhador-3] evento: processada id: 186 espera_s: 0.0070 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.417] [CONSULTA] [Produtor-3] evento: enfileirada id: 191 fila: -26
+[2026-10-19 23:19:33.418] [FALHA] [Trabalhador-3] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.418] [CONSULTA] [Produtor-3] evento: enfileirada id: 195 fila: -27
+[2026-10-19 23:19:33.418] [GERACAO] [Trabalhador-1] id: 187 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.419] [FILA] [Trabalhador-1] evento: processada id: 187 espera_s: 0.0070 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.419] [CONSULTA] [Produtor-1] evento: enfileirada id: 193 fila: -26
+[2026-10-19 23:19:33.420] [FALHA] [Trabalhador-1] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.420] [CONSULTA] [Produtor-1] evento: enfileirada id: 197 fila: -27
+[2026-10-19 23:19:33.420] [GERACAO] [Trabalhador-0] id: 189 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.420] [FILA] [Trabalhador-0] evento: processada id: 189 espera_s: 0.0062 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.421] [CONSULTA] [Produtor-0] evento: enfileirada id: 192 fila: -26
+[2026-10-19 23:19:33.421] [FALHA] [Trabalhador-0] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.422] [GERACAO] [Trabalhador-2] id: 191 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.422] [FILA] [Trabalhador-2] evento: processada id: 191 espera_s: 0.0043 proc_s: 0.0051 fila: -27
+[2026-10-19 23:19:33.422] [CONSULTA] [Produtor-3] evento: enfileirada id: 199 fila: -27
+[2026-10-19 23:19:33.423] [CONSULTA] [Produtor-2] evento: enfileirada id: 194 fila: -27
+[2026-10-19 23:19:33.423] [FALHA] [Trabalhador-2] evento: item_invalido conteudo: vazio
+[2026-10-19 23:19:33.424] [CONSULTA] [Produtor-0] evento: enfileirada id: 196 fila: -28
+[2026-10-19 23:19:33.424] [GERACAO] [Trabalhador-3] id: 193 simulado: io duracao: 0.0050s
+[2026-10-19 23:19:33.424] [FILA] [Trabalhador-3] evento: processada id: 193 espera_s: 0.0037 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.424] [CONSULTA] [Produtor-2] evento: enfileirada id: 198 fila: -27
+[2026-10-19 23:19:33.425] [ENCERRAMENTO] [Trabalhador-3] evento: trabalhador_encerrado
+[2026-10-19 23:19:33.426] [GERACAO] [Trabalhador-1] id: 192 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.426] [FILA] [Trabalhador-1] evento: processada id: 192 espera_s: 0.0063 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.427] [ENCERRAMENTO] [Trabalhador-1] evento: trabalhador_encerrado
+[2026-10-19 23:19:33.428] [GERACAO] [Trabalhador-0] id: 194 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.428] [FILA] [Trabalhador-0] evento: processada id: 194 espera_s: 0.0063 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.429] [ENCERRAMENTO] [Trabalhador-0] evento: trabalhador_encerrado
+[2026-10-19 23:19:33.429] [GERACAO] [Trabalhador-2] id: 198 simulado: io duracao: 0.0051s
+[2026-10-19 23:19:33.430] [FILA] [Trabalhador-2] evento: processada id: 198 espera_s: 0.0018 proc_s: 0.0051 fila: -28
+[2026-10-19 23:19:33.431] [ENCERRAMENTO] [Trabalhador-2] evento: trabalhador_encerrado
+[2026-10-19 23:19:33.431] [FILA] [MainThread] evento: resumo modo: inseguro carga: io trabalhadores: 4 produtores: 4 capacidade: 8 requisicoes: 200 custo_s: 0.005 timeout_put_s:  aceitas: 200 rejeitadas: 0 processadas_unicas: 178 perdidas: 22 duplicadas: 0 invalidas: 15 falhas_processamento: 0 tempo_total_s: 0.2899 vazao_req_s: 613.908 espera_media_s: 0.0078 espera_mediana_s: 0.0081 espera_p95_s: 0.009 espera_max_s: 0.0093 fila_media: -20.63 fila_max: 3 bloqueios_produtor: 187 esperas_consumidor: 4 utilizacao_media: 0.785 contador_final: -29 sinais_encerramento: 4 encerramento_forcado: False
+[2026-10-19 23:19:33.431] [ENCERRAMENTO] [MainThread] status: sistema_encerrado

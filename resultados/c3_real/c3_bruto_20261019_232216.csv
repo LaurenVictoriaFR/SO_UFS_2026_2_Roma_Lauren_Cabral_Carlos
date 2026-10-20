@@ -1,0 +1,10 @@
+configuracao,repeticao,horario,python,kernel,modo,carga,trabalhadores,produtores,capacidade,requisicoes,custo_s,timeout_put_s,aceitas,rejeitadas,processadas_unicas,perdidas,duplicadas,invalidas,falhas_processamento,tempo_total_s,vazao_req_s,espera_media_s,espera_mediana_s,espera_p95_s,espera_max_s,fila_media,fila_max,bloqueios_produtor,esperas_consumidor,utilizacao_media,contador_final,sinais_encerramento,encerramento_forcado
+C3_real_w1_p2_cap8,1,2026-10-19 23:22:55,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,1,2,8,8,0.05,,8,0,8,0,0,0,0,39.3803,0.203,22.798,24.5426,34.4722,35.6601,3.61,8,0,1,1.0,0,1,False
+C3_real_w1_p2_cap8,2,2026-10-19 23:23:21,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,1,2,8,8,0.05,,8,0,8,0,0,0,0,26.0572,0.307,11.0167,10.9429,20.2024,21.1283,3.61,8,0,1,1.0,0,1,False
+C3_real_w1_p2_cap8,3,2026-10-19 23:23:48,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,1,2,8,8,0.05,,8,0,8,0,0,0,0,26.5922,0.301,10.8027,11.2436,20.5995,21.8068,3.61,8,0,1,1.0,0,1,False
+C3_real_w2_p2_cap8,1,2026-10-19 23:24:13,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,2,2,8,8,0.05,,8,0,8,0,0,0,0,25.2606,0.317,8.5942,9.0184,17.3743,18.0972,3.3,8,0,2,0.936,0,2,False
+C3_real_w2_p2_cap8,2,2026-10-19 23:24:42,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,2,2,8,8,0.05,,8,0,8,0,0,0,0,28.8892,0.277,9.5017,9.2434,20.2151,21.3572,3.3,8,0,2,0.928,0,2,False
+C3_real_w2_p2_cap8,3,2026-10-19 23:25:09,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,2,2,8,8,0.05,,8,0,8,0,0,0,0,26.4635,0.302,8.9245,9.1127,18.493,19.4145,3.4,8,0,2,0.919,0,2,False
+C3_real_w4_p2_cap8,1,2026-10-19 23:25:35,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,4,2,8,8,0.05,,8,0,8,0,0,0,0,26.061,0.307,4.5731,1.9621,13.1614,14.6463,2.92,8,0,4,0.869,0,4,False
+C3_real_w4_p2_cap8,2,2026-10-19 23:26:01,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,4,2,8,8,0.05,,8,0,8,0,0,0,0,25.8916,0.309,4.3215,2.1414,11.9888,12.9724,3.08,8,0,4,0.808,0,4,False
+C3_real_w4_p2_cap8,3,2026-10-19 23:26:24,3.14.4,6.18.33.2-microsoft-standard-WSL2,seguro,io,4,2,8,8,0.05,,8,0,8,0,0,0,0,23.4645,0.341,3.7016,1.8171,10.0297,10.721,2.92,8,0,4,0.801,0,4,False

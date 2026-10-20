@@ -1,0 +1,4 @@
+Erro ao processar a pergunta: RuntimeError: Não foi possível conectar ao Ollama. Verifique se ele está em execução e se o modelo 'llama3.2:3b' está disponível. Detalhes: <urlopen error [Errno 111] Connection refused>
+[2026-10-19 23:31:54.946] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 6.1843s
+[2026-10-19 23:39:11.664] [FALHA] [MainThread] etapa: geracao; erro: URLError: <urlopen error [Errno 111] Connection refused> duracao: 0.0110s
+[2026-10-19 23:39:11.664] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 0.0194s

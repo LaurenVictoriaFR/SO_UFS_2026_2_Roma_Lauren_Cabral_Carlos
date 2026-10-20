@@ -1,0 +1,557 @@
+[2026-10-19 23:22:16.549] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-19 23:22:16.554] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:16.555] [CACHE] [Trabalhador-0] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:22:16.555] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:22:16.558] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0029s
+[2026-10-19 23:22:32.860] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2787 duracao: 16.3014s
+[2026-10-19 23:22:32.860] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0028649349997067475; tempo_geracao_s: 16.30136146399991 duracao: 16.3055s
+[2026-10-19 23:22:32.860] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 16.3055s
+[2026-10-19 23:22:32.860] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:32.860] [CACHE] [Trabalhador-0] erro chave: ['starvation']
+[2026-10-19 23:22:32.860] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:22:32.862] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0017s
+[2026-10-19 23:22:35.707] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1463 duracao: 2.8455s
+[2026-10-19 23:22:35.708] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0016868799998519535; tempo_geracao_s: 2.8454575730002034 duracao: 2.8477s
+[2026-10-19 23:22:35.708] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 2.8478s
+[2026-10-19 23:22:35.708] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:35.708] [CACHE] [Trabalhador-0] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:22:35.708] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:22:35.712] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0039s
+[2026-10-19 23:22:39.516] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1975 duracao: 3.8045s
+[2026-10-19 23:22:39.516] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.003856514999824867; tempo_geracao_s: 3.804472560999784 duracao: 3.8088s
+[2026-10-19 23:22:39.516] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.8088s
+[2026-10-19 23:22:39.516] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:39.517] [CACHE] [Trabalhador-0] erro chave: ['deadlock']
+[2026-10-19 23:22:39.517] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:22:39.518] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0017s
+[2026-10-19 23:22:42.678] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1700 duracao: 3.1597s
+[2026-10-19 23:22:42.678] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.001707856999928481; tempo_geracao_s: 3.1596640220000154 duracao: 3.1617s
+[2026-10-19 23:22:42.678] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.1618s
+[2026-10-19 23:22:42.678] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:42.678] [CACHE] [Trabalhador-0] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:22:42.678] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:22:42.680] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0016s
+[2026-10-19 23:22:46.468] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2104 duracao: 3.7883s
+[2026-10-19 23:22:46.469] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0016485200003444334; tempo_geracao_s: 3.7882859530000133 duracao: 3.7903s
+[2026-10-19 23:22:46.469] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.7903s
+[2026-10-19 23:22:46.469] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:46.469] [CACHE] [Trabalhador-0] erro chave: ['swap']
+[2026-10-19 23:22:46.469] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:22:46.470] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0016s
+[2026-10-19 23:22:48.821] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1200 duracao: 2.3508s
+[2026-10-19 23:22:48.821] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0016290010003103816; tempo_geracao_s: 2.3507808190001924 duracao: 2.3527s
+[2026-10-19 23:22:48.821] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 2.3528s
+[2026-10-19 23:22:48.821] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:48.822] [CACHE] [Trabalhador-0] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:22:48.822] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:22:48.823] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0016s
+[2026-10-19 23:22:52.215] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1840 duracao: 3.3919s
+[2026-10-19 23:22:52.215] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0015852900000936643; tempo_geracao_s: 3.3918802389998746 duracao: 3.3938s
+[2026-10-19 23:22:52.215] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.3938s
+[2026-10-19 23:22:52.215] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:52.215] [CACHE] [Trabalhador-0] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:22:52.215] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:22:52.217] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0016s
+[2026-10-19 23:22:55.933] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1792 duracao: 3.7160s
+[2026-10-19 23:22:55.933] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.001622340000267286; tempo_geracao_s: 3.716002711999863 duracao: 3.7180s
+[2026-10-19 23:22:55.933] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.7180s
+[2026-10-19 23:22:55.935] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:55.936] [CACHE] [Trabalhador-0] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:22:55.936] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:22:55.939] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0034s
+[2026-10-19 23:22:59.557] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1785 duracao: 3.6175s
+[2026-10-19 23:22:59.557] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0033748810001270613; tempo_geracao_s: 3.617491459000121 duracao: 3.6218s
+[2026-10-19 23:22:59.557] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.6218s
+[2026-10-19 23:22:59.557] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:22:59.557] [CACHE] [Trabalhador-0] erro chave: ['starvation']
+[2026-10-19 23:22:59.557] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:22:59.559] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0017s
+[2026-10-19 23:23:03.462] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2000 duracao: 3.9029s
+[2026-10-19 23:23:03.463] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.001703950999853987; tempo_geracao_s: 3.9028891729999486 duracao: 3.9052s
+[2026-10-19 23:23:03.463] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.9055s
+[2026-10-19 23:23:03.464] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:03.464] [CACHE] [Trabalhador-0] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:23:03.464] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:23:03.467] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0023s
+[2026-10-19 23:23:05.985] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1276 duracao: 2.5183s
+[2026-10-19 23:23:05.986] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.002300180000020191; tempo_geracao_s: 2.5182610540000496 duracao: 2.5220s
+[2026-10-19 23:23:05.986] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 2.5223s
+[2026-10-19 23:23:05.986] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:05.987] [CACHE] [Trabalhador-0] erro chave: ['deadlock']
+[2026-10-19 23:23:05.987] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:23:05.990] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0030s
+[2026-10-19 23:23:07.770] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=927 duracao: 1.7791s
+[2026-10-19 23:23:07.770] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.003005410999776359; tempo_geracao_s: 1.7790604870001516 duracao: 1.7838s
+[2026-10-19 23:23:07.771] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 1.7841s
+[2026-10-19 23:23:07.771] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:07.771] [CACHE] [Trabalhador-0] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:23:07.772] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:23:07.774] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0024s
+[2026-10-19 23:23:11.422] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1869 duracao: 3.6472s
+[2026-10-19 23:23:11.422] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.0024263740001515544; tempo_geracao_s: 3.64719642 duracao: 3.6510s
+[2026-10-19 23:23:11.422] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.6513s
+[2026-10-19 23:23:11.423] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:11.423] [CACHE] [Trabalhador-0] erro chave: ['swap']
+[2026-10-19 23:23:11.423] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:23:11.426] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0025s
+[2026-10-19 23:23:14.418] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1585 duracao: 2.9917s
+[2026-10-19 23:23:14.418] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.0025071850000131235; tempo_geracao_s: 2.991680869999982 duracao: 2.9956s
+[2026-10-19 23:23:14.419] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 2.9959s
+[2026-10-19 23:23:14.419] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:14.420] [CACHE] [Trabalhador-0] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:23:14.420] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:23:14.422] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0023s
+[2026-10-19 23:23:17.063] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1501 duracao: 2.6406s
+[2026-10-19 23:23:17.064] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.0022698870002386684; tempo_geracao_s: 2.6405506989999594 duracao: 2.6443s
+[2026-10-19 23:23:17.064] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 2.6446s
+[2026-10-19 23:23:17.065] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:17.065] [CACHE] [Trabalhador-0] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:23:17.065] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:23:17.068] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0023s
+[2026-10-19 23:23:21.991] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2366 duracao: 4.9225s
+[2026-10-19 23:23:21.991] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.0022795390000283078; tempo_geracao_s: 4.922508487999949 duracao: 4.9263s
+[2026-10-19 23:23:21.991] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 4.9265s
+[2026-10-19 23:23:21.996] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:21.997] [CACHE] [Trabalhador-0] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:23:21.998] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0010s
+[2026-10-19 23:23:22.016] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0163s
+[2026-10-19 23:23:25.147] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1568 duracao: 3.1312s
+[2026-10-19 23:23:25.148] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0010; tempo_recuperacao_s: 0.016294145999836473; tempo_geracao_s: 3.131211662000169 duracao: 3.1517s
+[2026-10-19 23:23:25.148] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.1522s
+[2026-10-19 23:23:25.149] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:25.149] [CACHE] [Trabalhador-0] erro chave: ['starvation']
+[2026-10-19 23:23:25.149] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:23:25.152] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0027s
+[2026-10-19 23:23:27.874] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1496 duracao: 2.7216s
+[2026-10-19 23:23:27.874] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.0026616700001795834; tempo_geracao_s: 2.7216134710001825 duracao: 2.7257s
+[2026-10-19 23:23:27.875] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 2.7260s
+[2026-10-19 23:23:27.875] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:27.876] [CACHE] [Trabalhador-0] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:23:27.876] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:23:27.878] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0024s
+[2026-10-19 23:23:31.773] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1946 duracao: 3.8938s
+[2026-10-19 23:23:31.773] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.00238391099992441; tempo_geracao_s: 3.8937611589999506 duracao: 3.8977s
+[2026-10-19 23:23:31.773] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.8980s
+[2026-10-19 23:23:31.774] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:31.774] [CACHE] [Trabalhador-0] erro chave: ['swap']
+[2026-10-19 23:23:31.774] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:23:31.777] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0025s
+[2026-10-19 23:23:34.711] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1559 duracao: 2.9331s
+[2026-10-19 23:23:34.711] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.002493834000233619; tempo_geracao_s: 2.9331286050000926 duracao: 2.9372s
+[2026-10-19 23:23:34.711] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 2.9375s
+[2026-10-19 23:23:34.712] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:34.712] [CACHE] [Trabalhador-0] erro chave: ['deadlock']
+[2026-10-19 23:23:34.712] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:23:34.715] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0028s
+[2026-10-19 23:23:36.739] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1121 duracao: 2.0232s
+[2026-10-19 23:23:36.739] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.0028226760000507056; tempo_geracao_s: 2.023243855999681 duracao: 2.0276s
+[2026-10-19 23:23:36.740] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 2.0279s
+[2026-10-19 23:23:36.740] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:36.740] [CACHE] [Trabalhador-0] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:23:36.741] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:23:36.744] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0026s
+[2026-10-19 23:23:40.356] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1937 duracao: 3.6125s
+[2026-10-19 23:23:40.357] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.00263460899986967; tempo_geracao_s: 3.612484009999662 duracao: 3.6171s
+[2026-10-19 23:23:40.358] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.6174s
+[2026-10-19 23:23:40.358] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:40.359] [CACHE] [Trabalhador-0] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:23:40.359] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:23:40.363] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0045s
+[2026-10-19 23:23:43.807] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1788 duracao: 3.4433s
+[2026-10-19 23:23:43.808] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.0044609550000132; tempo_geracao_s: 3.443284819999917 duracao: 3.4495s
+[2026-10-19 23:23:43.808] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.4499s
+[2026-10-19 23:23:43.809] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:43.809] [CACHE] [Trabalhador-0] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:23:43.809] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:23:43.812] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0026s
+[2026-10-19 23:23:48.584] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2054 duracao: 4.7723s
+[2026-10-19 23:23:48.585] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.0025750469999366032; tempo_geracao_s: 4.772327567000048 duracao: 4.7763s
+[2026-10-19 23:23:48.585] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 4.7765s
+[2026-10-19 23:23:48.592] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:48.594] [CACHE] [Trabalhador-0] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:23:48.593] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:23:48.595] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0010s
+[2026-10-19 23:23:48.596] [CACHE] [Trabalhador-1] erro chave: ['starvation']
+[2026-10-19 23:23:48.598] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0022s
+[2026-10-19 23:23:48.624] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0276s
+[2026-10-19 23:23:48.624] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0260s
+[2026-10-19 23:23:52.074] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1821 duracao: 3.4407s
+[2026-10-19 23:23:52.075] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0022; tempo_recuperacao_s: 0.025985290999869903; tempo_geracao_s: 3.440742121999847 duracao: 3.4819s
+[2026-10-19 23:23:52.075] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 3.4822s
+[2026-10-19 23:23:52.075] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:23:52.076] [CACHE] [Trabalhador-1] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:23:52.076] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0005s
+[2026-10-19 23:23:52.079] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0024s
+[2026-10-19 23:23:56.286] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2016 duracao: 7.6617s
+[2026-10-19 23:23:56.287] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0010; tempo_recuperacao_s: 0.027567917999931524; tempo_geracao_s: 7.66165756800001 duracao: 7.6951s
+[2026-10-19 23:23:56.287] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 7.6954s
+[2026-10-19 23:23:56.288] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:23:56.288] [CACHE] [Trabalhador-0] erro chave: ['deadlock']
+[2026-10-19 23:23:56.288] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0004s
+[2026-10-19 23:23:56.292] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0028s
+[2026-10-19 23:23:58.937] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1295 duracao: 6.8582s
+[2026-10-19 23:23:58.938] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0005; tempo_recuperacao_s: 0.0023768089999975928; tempo_geracao_s: 6.858211911000126 duracao: 6.8625s
+[2026-10-19 23:23:58.938] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 6.8627s
+[2026-10-19 23:23:58.939] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:23:58.939] [CACHE] [Trabalhador-1] erro chave: ['swap']
+[2026-10-19 23:23:58.939] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:23:58.942] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0027s
+[2026-10-19 23:24:01.699] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1435 duracao: 5.4068s
+[2026-10-19 23:24:01.700] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0004; tempo_recuperacao_s: 0.0027703330001713766; tempo_geracao_s: 5.4068321069999 duracao: 5.4119s
+[2026-10-19 23:24:01.700] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 5.4122s
+[2026-10-19 23:24:01.700] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:01.701] [CACHE] [Trabalhador-0] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:24:01.701] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:24:01.704] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0026s
+[2026-10-19 23:24:04.628] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1492 duracao: 5.6851s
+[2026-10-19 23:24:04.628] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.0026521989998400386; tempo_geracao_s: 5.685103616000106 duracao: 5.6894s
+[2026-10-19 23:24:04.629] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 5.6899s
+[2026-10-19 23:24:04.629] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:04.630] [CACHE] [Trabalhador-1] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:24:04.630] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:24:04.633] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0025s
+[2026-10-19 23:24:06.694] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1138 duracao: 4.9900s
+[2026-10-19 23:24:06.695] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.0025594869998712966; tempo_geracao_s: 4.9900494840003375 duracao: 4.9942s
+[2026-10-19 23:24:06.695] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 4.9944s
+[2026-10-19 23:24:06.695] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:06.695] [CACHE] [Trabalhador-0] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:24:06.696] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:24:06.698] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0024s
+[2026-10-19 23:24:10.604] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=2197 duracao: 5.9704s
+[2026-10-19 23:24:10.604] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.0025019029999384657; tempo_geracao_s: 5.970357174999663 duracao: 5.9748s
+[2026-10-19 23:24:10.604] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 5.9751s
+[2026-10-19 23:24:13.849] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1542 duracao: 7.1501s
+[2026-10-19 23:24:13.849] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.0024139109996212937; tempo_geracao_s: 7.150127614000212 duracao: 7.1537s
+[2026-10-19 23:24:13.849] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 7.1537s
+[2026-10-19 23:24:13.854] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:13.854] [CACHE] [Trabalhador-0] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:24:13.854] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:24:13.854] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:13.855] [CACHE] [Trabalhador-1] erro chave: ['starvation']
+[2026-10-19 23:24:13.855] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:13.859] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0044s
+[2026-10-19 23:24:13.859] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0047s
+[2026-10-19 23:24:17.761] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=2028 duracao: 3.9018s
+[2026-10-19 23:24:17.761] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.004370528999970702; tempo_geracao_s: 3.901825440000266 duracao: 3.9070s
+[2026-10-19 23:24:17.761] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 3.9070s
+[2026-10-19 23:24:17.762] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:17.762] [CACHE] [Trabalhador-1] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:24:17.762] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:17.764] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0023s
+[2026-10-19 23:24:21.458] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1765 duracao: 7.5980s
+[2026-10-19 23:24:21.458] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.004733608999686112; tempo_geracao_s: 7.597970322999572 duracao: 7.6040s
+[2026-10-19 23:24:21.458] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 7.6041s
+[2026-10-19 23:24:21.458] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:21.458] [CACHE] [Trabalhador-0] erro chave: ['deadlock']
+[2026-10-19 23:24:21.458] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:24:21.460] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0019s
+[2026-10-19 23:24:24.738] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1683 duracao: 6.9737s
+[2026-10-19 23:24:24.738] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0023029579997455585; tempo_geracao_s: 6.97374855299995 duracao: 6.9765s
+[2026-10-19 23:24:24.738] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 6.9765s
+[2026-10-19 23:24:24.738] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:24.738] [CACHE] [Trabalhador-1] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:24:24.738] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:24.740] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0016s
+[2026-10-19 23:24:28.023] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1639 duracao: 6.5629s
+[2026-10-19 23:24:28.024] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.001887442000224837; tempo_geracao_s: 6.562949464999747 duracao: 6.5653s
+[2026-10-19 23:24:28.024] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 6.5654s
+[2026-10-19 23:24:28.024] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:28.024] [CACHE] [Trabalhador-0] erro chave: ['swap']
+[2026-10-19 23:24:28.024] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:28.026] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0018s
+[2026-10-19 23:24:31.949] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=2054 duracao: 7.2086s
+[2026-10-19 23:24:31.949] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0016393189998780144; tempo_geracao_s: 7.20861461100003 duracao: 7.2106s
+[2026-10-19 23:24:31.949] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 7.2107s
+[2026-10-19 23:24:31.949] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:31.949] [CACHE] [Trabalhador-1] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:24:31.949] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:31.951] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0018s
+[2026-10-19 23:24:35.212] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1710 duracao: 7.1863s
+[2026-10-19 23:24:35.212] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0018371850001130952; tempo_geracao_s: 7.186255504999735 duracao: 7.1885s
+[2026-10-19 23:24:35.212] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 7.1886s
+[2026-10-19 23:24:35.212] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:35.212] [CACHE] [Trabalhador-0] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:24:35.212] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:35.214] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0018s
+[2026-10-19 23:24:38.567] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1803 duracao: 6.6164s
+[2026-10-19 23:24:38.568] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0018461149998074688; tempo_geracao_s: 6.616373066999586 duracao: 6.6186s
+[2026-10-19 23:24:38.568] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 6.6186s
+[2026-10-19 23:24:42.739] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2044 duracao: 7.5241s
+[2026-10-19 23:24:42.739] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0017945040003723989; tempo_geracao_s: 7.524113123999996 duracao: 7.5263s
+[2026-10-19 23:24:42.739] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 7.5264s
+[2026-10-19 23:24:42.740] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:42.741] [CACHE] [Trabalhador-1] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:24:42.741] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:24:42.740] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:42.741] [CACHE] [Trabalhador-0] erro chave: ['starvation']
+[2026-10-19 23:24:42.742] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0005s
+[2026-10-19 23:24:42.745] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0043s
+[2026-10-19 23:24:42.746] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0047s
+[2026-10-19 23:24:47.200] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=2191 duracao: 4.4548s
+[2026-10-19 23:24:47.201] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.004295989999718586; tempo_geracao_s: 4.454802719999861 duracao: 4.4605s
+[2026-10-19 23:24:47.201] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 4.4606s
+[2026-10-19 23:24:47.201] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:47.201] [CACHE] [Trabalhador-1] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:24:47.201] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:47.205] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0035s
+[2026-10-19 23:24:50.528] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1763 duracao: 7.7814s
+[2026-10-19 23:24:50.529] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0005; tempo_recuperacao_s: 0.004721981999864511; tempo_geracao_s: 7.781408050000209 duracao: 7.7882s
+[2026-10-19 23:24:50.529] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 7.7882s
+[2026-10-19 23:24:50.529] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:50.529] [CACHE] [Trabalhador-0] erro chave: ['deadlock']
+[2026-10-19 23:24:50.529] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:50.531] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0018s
+[2026-10-19 23:24:53.178] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1327 duracao: 5.9728s
+[2026-10-19 23:24:53.178] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0034787650001817383; tempo_geracao_s: 5.972841292999874 duracao: 5.9768s
+[2026-10-19 23:24:53.178] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 5.9769s
+[2026-10-19 23:24:53.178] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:53.178] [CACHE] [Trabalhador-1] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:24:53.178] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:24:53.180] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0018s
+[2026-10-19 23:24:55.255] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1076 duracao: 4.7239s
+[2026-10-19 23:24:55.255] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0017794239997783734; tempo_geracao_s: 4.723865900999954 duracao: 4.7261s
+[2026-10-19 23:24:55.255] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 4.7261s
+[2026-10-19 23:24:55.255] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:24:55.255] [CACHE] [Trabalhador-0] erro chave: ['swap']
+[2026-10-19 23:24:55.255] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:55.257] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0020s
+[2026-10-19 23:24:59.523] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=2391 duracao: 6.3429s
+[2026-10-19 23:24:59.523] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.001822095000079571; tempo_geracao_s: 6.342881826999928 duracao: 6.3452s
+[2026-10-19 23:24:59.523] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 6.3453s
+[2026-10-19 23:24:59.523] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:24:59.523] [CACHE] [Trabalhador-1] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:24:59.523] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:24:59.525] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0018s
+[2026-10-19 23:25:02.156] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1292 duracao: 6.8991s
+[2026-10-19 23:25:02.156] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0020466800001486263; tempo_geracao_s: 6.899064039000223 duracao: 6.9015s
+[2026-10-19 23:25:02.156] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 6.9015s
+[2026-10-19 23:25:02.156] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:25:02.157] [CACHE] [Trabalhador-0] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:25:02.157] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:25:02.158] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0017s
+[2026-10-19 23:25:04.923] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1454 duracao: 5.3979s
+[2026-10-19 23:25:04.923] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0017750520000845427; tempo_geracao_s: 5.397913801999948 duracao: 5.4001s
+[2026-10-19 23:25:04.923] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 5.4001s
+[2026-10-19 23:25:09.203] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2109 duracao: 7.0442s
+[2026-10-19 23:25:09.203] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.001731430999825534; tempo_geracao_s: 7.044191871999828 duracao: 7.0464s
+[2026-10-19 23:25:09.203] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 7.0464s
+[2026-10-19 23:25:09.206] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:25:09.206] [CACHE] [Trabalhador-0] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:25:09.206] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0003s
+[2026-10-19 23:25:09.206] [CONSULTA] [Trabalhador-2] status: consulta_iniciada
+[2026-10-19 23:25:09.207] [CACHE] [Trabalhador-2] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:25:09.207] [CACHE] [Trabalhador-2] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:25:09.206] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:25:09.208] [CACHE] [Trabalhador-1] erro chave: ['starvation']
+[2026-10-19 23:25:09.207] [CONSULTA] [Trabalhador-3] status: consulta_iniciada
+[2026-10-19 23:25:09.208] [CACHE] [Trabalhador-3] erro chave: ['deadlock']
+[2026-10-19 23:25:09.208] [CACHE] [Trabalhador-3] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:25:09.208] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:25:09.210] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0034s
+[2026-10-19 23:25:09.212] [RECUPERACAO] [Trabalhador-2] status: busca_concluida documentos_encontrados=3 duracao: 0.0043s
+[2026-10-19 23:25:09.215] [RECUPERACAO] [Trabalhador-3] status: busca_concluida documentos_encontrados=3 duracao: 0.0065s
+[2026-10-19 23:25:09.215] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0066s
+[2026-10-19 23:25:13.130] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2045 duracao: 3.9200s
+[2026-10-19 23:25:13.130] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0003; tempo_recuperacao_s: 0.0034065620002365904; tempo_geracao_s: 3.9200113270003385 duracao: 3.9246s
+[2026-10-19 23:25:13.130] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.9246s
+[2026-10-19 23:25:13.131] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:25:13.131] [CACHE] [Trabalhador-0] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:25:13.131] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:25:13.133] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0026s
+[2026-10-19 23:25:16.817] [GERACAO] [Trabalhador-2] status: geracao_concluida caracteres_resposta=1949 duracao: 7.6052s
+[2026-10-19 23:25:16.817] [CONSULTA] [Trabalhador-2] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.004342360999999073; tempo_geracao_s: 7.605204725000021 duracao: 7.6109s
+[2026-10-19 23:25:16.817] [ENCERRAMENTO] [Trabalhador-2] status: consulta_encerrada duracao: 7.6109s
+[2026-10-19 23:25:16.817] [CONSULTA] [Trabalhador-2] status: consulta_iniciada
+[2026-10-19 23:25:16.817] [CACHE] [Trabalhador-2] erro chave: ['swap']
+[2026-10-19 23:25:16.817] [CACHE] [Trabalhador-2] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:25:16.819] [RECUPERACAO] [Trabalhador-2] status: busca_concluida documentos_encontrados=3 duracao: 0.0017s
+[2026-10-19 23:25:19.611] [GERACAO] [Trabalhador-3] status: geracao_concluida caracteres_resposta=1453 duracao: 10.3958s
+[2026-10-19 23:25:19.611] [CONSULTA] [Trabalhador-3] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.006484394999915821; tempo_geracao_s: 10.395777338000244 duracao: 10.4042s
+[2026-10-19 23:25:19.611] [ENCERRAMENTO] [Trabalhador-3] status: consulta_encerrada duracao: 10.4042s
+[2026-10-19 23:25:19.611] [CONSULTA] [Trabalhador-3] status: consulta_iniciada
+[2026-10-19 23:25:19.611] [CACHE] [Trabalhador-3] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:25:19.611] [CACHE] [Trabalhador-3] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:25:19.613] [RECUPERACAO] [Trabalhador-3] status: busca_concluida documentos_encontrados=3 duracao: 0.0019s
+[2026-10-19 23:25:23.853] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=2166 duracao: 14.6381s
+[2026-10-19 23:25:23.854] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.006554657999913616; tempo_geracao_s: 14.638115690999712 duracao: 14.6474s
+[2026-10-19 23:25:23.854] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 14.6475s
+[2026-10-19 23:25:23.854] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:25:23.854] [CACHE] [Trabalhador-1] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:25:23.854] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:25:23.856] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0021s
+[2026-10-19 23:25:28.040] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2234 duracao: 14.9065s
+[2026-10-19 23:25:28.040] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0026465689998076414; tempo_geracao_s: 14.90654198700031 duracao: 14.9098s
+[2026-10-19 23:25:28.040] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 14.9098s
+[2026-10-19 23:25:31.027] [GERACAO] [Trabalhador-2] status: geracao_concluida caracteres_resposta=1468 duracao: 14.2079s
+[2026-10-19 23:25:31.027] [CONSULTA] [Trabalhador-2] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.00168467999992572; tempo_geracao_s: 14.207893925999997 duracao: 14.2099s
+[2026-10-19 23:25:31.027] [ENCERRAMENTO] [Trabalhador-2] status: consulta_encerrada duracao: 14.2100s
+[2026-10-19 23:25:33.119] [GERACAO] [Trabalhador-3] status: geracao_concluida caracteres_resposta=1055 duracao: 13.5056s
+[2026-10-19 23:25:33.119] [CONSULTA] [Trabalhador-3] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0019425489999775891; tempo_geracao_s: 13.505599074999736 duracao: 13.5080s
+[2026-10-19 23:25:33.119] [ENCERRAMENTO] [Trabalhador-3] status: consulta_encerrada duracao: 13.5080s
+[2026-10-19 23:25:35.265] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1043 duracao: 11.4084s
+[2026-10-19 23:25:35.265] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0021378039996307052; tempo_geracao_s: 11.40839939999978 duracao: 11.4111s
+[2026-10-19 23:25:35.265] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 11.4111s
+[2026-10-19 23:25:35.267] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:25:35.267] [CACHE] [Trabalhador-0] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:25:35.267] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:25:35.267] [CONSULTA] [Trabalhador-3] status: consulta_iniciada
+[2026-10-19 23:25:35.268] [CACHE] [Trabalhador-3] erro chave: ['deadlock']
+[2026-10-19 23:25:35.268] [CACHE] [Trabalhador-3] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:25:35.267] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:25:35.267] [CONSULTA] [Trabalhador-2] status: consulta_iniciada
+[2026-10-19 23:25:35.269] [CACHE] [Trabalhador-2] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:25:35.269] [CACHE] [Trabalhador-2] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:25:35.269] [CACHE] [Trabalhador-1] erro chave: ['starvation']
+[2026-10-19 23:25:35.270] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0010s
+[2026-10-19 23:25:35.272] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0044s
+[2026-10-19 23:25:35.274] [RECUPERACAO] [Trabalhador-3] status: busca_concluida documentos_encontrados=3 duracao: 0.0058s
+[2026-10-19 23:25:35.276] [RECUPERACAO] [Trabalhador-2] status: busca_concluida documentos_encontrados=3 duracao: 0.0066s
+[2026-10-19 23:25:35.276] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0066s
+[2026-10-19 23:25:39.550] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2261 duracao: 4.2775s
+[2026-10-19 23:25:39.550] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.004355120000127499; tempo_geracao_s: 4.277522896999926 duracao: 4.2826s
+[2026-10-19 23:25:39.550] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 4.2827s
+[2026-10-19 23:25:39.550] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:25:39.550] [CACHE] [Trabalhador-0] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:25:39.550] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:25:39.552] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0019s
+[2026-10-19 23:25:42.422] [GERACAO] [Trabalhador-3] status: geracao_concluida caracteres_resposta=1459 duracao: 7.1479s
+[2026-10-19 23:25:42.422] [CONSULTA] [Trabalhador-3] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.005824358999689139; tempo_geracao_s: 7.14791870199997 duracao: 7.1548s
+[2026-10-19 23:25:42.422] [ENCERRAMENTO] [Trabalhador-3] status: consulta_encerrada duracao: 7.1548s
+[2026-10-19 23:25:42.422] [CONSULTA] [Trabalhador-3] status: consulta_iniciada
+[2026-10-19 23:25:42.422] [CACHE] [Trabalhador-3] erro chave: ['swap']
+[2026-10-19 23:25:42.422] [CACHE] [Trabalhador-3] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:25:42.424] [RECUPERACAO] [Trabalhador-3] status: busca_concluida documentos_encontrados=3 duracao: 0.0017s
+[2026-10-19 23:25:45.430] [GERACAO] [Trabalhador-2] status: geracao_concluida caracteres_resposta=1570 duracao: 10.1539s
+[2026-10-19 23:25:45.430] [CONSULTA] [Trabalhador-2] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0066209039996465435; tempo_geracao_s: 10.153927733999808 duracao: 10.1632s
+[2026-10-19 23:25:45.430] [ENCERRAMENTO] [Trabalhador-2] status: consulta_encerrada duracao: 10.1633s
+[2026-10-19 23:25:45.431] [CONSULTA] [Trabalhador-2] status: consulta_iniciada
+[2026-10-19 23:25:45.431] [CACHE] [Trabalhador-2] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:25:45.431] [CACHE] [Trabalhador-2] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:25:45.433] [RECUPERACAO] [Trabalhador-2] status: busca_concluida documentos_encontrados=3 duracao: 0.0024s
+[2026-10-19 23:25:48.241] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1344 duracao: 12.9639s
+[2026-10-19 23:25:48.241] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0010; tempo_recuperacao_s: 0.006629849000091781; tempo_geracao_s: 12.963898206000067 duracao: 12.9736s
+[2026-10-19 23:25:48.241] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 12.9737s
+[2026-10-19 23:25:48.241] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:25:48.241] [CACHE] [Trabalhador-1] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:25:48.241] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:25:48.243] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0019s
+[2026-10-19 23:25:51.376] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1723 duracao: 11.8234s
+[2026-10-19 23:25:51.376] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0019446679998509353; tempo_geracao_s: 11.823367339000015 duracao: 11.8258s
+[2026-10-19 23:25:51.376] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 11.8258s
+[2026-10-19 23:25:54.807] [GERACAO] [Trabalhador-3] status: geracao_concluida caracteres_resposta=1802 duracao: 12.3829s
+[2026-10-19 23:25:54.807] [CONSULTA] [Trabalhador-3] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0016615989998172154; tempo_geracao_s: 12.382885473999977 duracao: 12.3849s
+[2026-10-19 23:25:54.807] [ENCERRAMENTO] [Trabalhador-3] status: consulta_encerrada duracao: 12.3850s
+[2026-10-19 23:25:57.454] [GERACAO] [Trabalhador-2] status: geracao_concluida caracteres_resposta=1423 duracao: 12.0210s
+[2026-10-19 23:25:57.454] [CONSULTA] [Trabalhador-2] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.002383930999712902; tempo_geracao_s: 12.021043052000095 duracao: 12.0238s
+[2026-10-19 23:25:57.454] [ENCERRAMENTO] [Trabalhador-2] status: consulta_encerrada duracao: 12.0239s
+[2026-10-19 23:26:01.157] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1801 duracao: 12.9140s
+[2026-10-19 23:26:01.157] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0018577289997665503; tempo_geracao_s: 12.914010787999814 duracao: 12.9163s
+[2026-10-19 23:26:01.157] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 12.9164s
+[2026-10-19 23:26:01.159] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:26:01.159] [CACHE] [Trabalhador-0] erro chave: ['cache', 'funciona', 'pagina']
+[2026-10-19 23:26:01.159] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0002s
+[2026-10-19 23:26:01.159] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:26:01.160] [CACHE] [Trabalhador-1] erro chave: ['starvation']
+[2026-10-19 23:26:01.160] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:26:01.159] [CONSULTA] [Trabalhador-2] status: consulta_iniciada
+[2026-10-19 23:26:01.160] [CACHE] [Trabalhador-2] erro chave: ['cache', 'entre', 'memoria', 'pagina', 'relacao', 'virtual']
+[2026-10-19 23:26:01.160] [CACHE] [Trabalhador-2] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:26:01.160] [CONSULTA] [Trabalhador-3] status: consulta_iniciada
+[2026-10-19 23:26:01.162] [CACHE] [Trabalhador-3] erro chave: ['deadlock']
+[2026-10-19 23:26:01.162] [CACHE] [Trabalhador-3] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:26:01.163] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0036s
+[2026-10-19 23:26:01.167] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0067s
+[2026-10-19 23:26:01.169] [RECUPERACAO] [Trabalhador-2] status: busca_concluida documentos_encontrados=3 duracao: 0.0082s
+[2026-10-19 23:26:01.170] [RECUPERACAO] [Trabalhador-3] status: busca_concluida documentos_encontrados=3 duracao: 0.0076s
+[2026-10-19 23:26:04.794] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=1783 duracao: 3.6304s
+[2026-10-19 23:26:04.794] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0002; tempo_recuperacao_s: 0.0035594959999798448; tempo_geracao_s: 3.6303605859998243 duracao: 3.6349s
+[2026-10-19 23:26:04.794] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 3.6350s
+[2026-10-19 23:26:04.794] [CONSULTA] [Trabalhador-0] status: consulta_iniciada
+[2026-10-19 23:26:04.794] [CACHE] [Trabalhador-0] erro chave: ['funciona', 'starvation']
+[2026-10-19 23:26:04.794] [CACHE] [Trabalhador-0] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:26:04.796] [RECUPERACAO] [Trabalhador-0] status: busca_concluida documentos_encontrados=3 duracao: 0.0017s
+[2026-10-19 23:26:07.672] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1556 duracao: 6.5049s
+[2026-10-19 23:26:07.672] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0066794389999813575; tempo_geracao_s: 6.50490330599996 duracao: 6.5128s
+[2026-10-19 23:26:07.672] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 6.5129s
+[2026-10-19 23:26:07.672] [CONSULTA] [Trabalhador-1] status: consulta_iniciada
+[2026-10-19 23:26:07.672] [CACHE] [Trabalhador-1] erro chave: ['swap']
+[2026-10-19 23:26:07.672] [CACHE] [Trabalhador-1] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:26:07.674] [RECUPERACAO] [Trabalhador-1] status: busca_concluida documentos_encontrados=3 duracao: 0.0020s
+[2026-10-19 23:26:09.906] [GERACAO] [Trabalhador-2] status: geracao_concluida caracteres_resposta=1066 duracao: 8.7372s
+[2026-10-19 23:26:09.906] [CONSULTA] [Trabalhador-2] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.008167733999925986; tempo_geracao_s: 8.737239354999929 duracao: 8.7470s
+[2026-10-19 23:26:09.906] [ENCERRAMENTO] [Trabalhador-2] status: consulta_encerrada duracao: 8.7471s
+[2026-10-19 23:26:09.906] [CONSULTA] [Trabalhador-2] status: consulta_iniciada
+[2026-10-19 23:26:09.907] [CACHE] [Trabalhador-2] erro chave: ['deadlock', 'entre', 'relacao', 'thrashing']
+[2026-10-19 23:26:09.907] [CACHE] [Trabalhador-2] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:26:09.908] [RECUPERACAO] [Trabalhador-2] status: busca_concluida documentos_encontrados=3 duracao: 0.0018s
+[2026-10-19 23:26:11.882] [GERACAO] [Trabalhador-3] status: geracao_concluida caracteres_resposta=1042 duracao: 10.7115s
+[2026-10-19 23:26:11.882] [CONSULTA] [Trabalhador-3] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.00755850499990629; tempo_geracao_s: 10.711516429999847 duracao: 10.7219s
+[2026-10-19 23:26:11.882] [ENCERRAMENTO] [Trabalhador-3] status: consulta_encerrada duracao: 10.7219s
+[2026-10-19 23:26:11.882] [CONSULTA] [Trabalhador-3] status: consulta_iniciada
+[2026-10-19 23:26:11.882] [CACHE] [Trabalhador-3] erro chave: ['entre', 'paginacao', 'relacao', 'semaforo']
+[2026-10-19 23:26:11.882] [CACHE] [Trabalhador-3] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:26:11.884] [RECUPERACAO] [Trabalhador-3] status: busca_concluida documentos_encontrados=3 duracao: 0.0017s
+[2026-10-19 23:26:15.753] [GERACAO] [Trabalhador-0] status: geracao_concluida caracteres_resposta=2066 duracao: 10.9568s
+[2026-10-19 23:26:15.753] [CONSULTA] [Trabalhador-0] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.001660709000134375; tempo_geracao_s: 10.95675094499984 duracao: 10.9588s
+[2026-10-19 23:26:15.753] [ENCERRAMENTO] [Trabalhador-0] status: consulta_encerrada duracao: 10.9589s
+[2026-10-19 23:26:18.439] [GERACAO] [Trabalhador-1] status: geracao_concluida caracteres_resposta=1355 duracao: 10.7643s
+[2026-10-19 23:26:18.439] [CONSULTA] [Trabalhador-1] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0019515289995979401; tempo_geracao_s: 10.764346740999827 duracao: 10.7666s
+[2026-10-19 23:26:18.439] [ENCERRAMENTO] [Trabalhador-1] status: consulta_encerrada duracao: 10.7667s
+[2026-10-19 23:26:20.959] [GERACAO] [Trabalhador-2] status: geracao_concluida caracteres_resposta=1377 duracao: 11.0504s
+[2026-10-19 23:26:20.959] [CONSULTA] [Trabalhador-2] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0017833339998105657; tempo_geracao_s: 11.050357847000214 duracao: 11.0526s
+[2026-10-19 23:26:20.959] [ENCERRAMENTO] [Trabalhador-2] status: consulta_encerrada duracao: 11.0526s
+[2026-10-19 23:26:24.620] [GERACAO] [Trabalhador-3] status: geracao_concluida caracteres_resposta=1693 duracao: 12.7367s
+[2026-10-19 23:26:24.621] [CONSULTA] [Trabalhador-3] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0000; tempo_recuperacao_s: 0.0017022709998855134; tempo_geracao_s: 12.736725908000153 duracao: 12.7388s
+[2026-10-19 23:26:24.621] [ENCERRAMENTO] [Trabalhador-3] status: consulta_encerrada duracao: 12.7389s
+[2026-10-19 23:28:27.154] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-19 23:28:27.181] [CONSULTA] [MainThread] status: consulta_iniciada
+[2026-10-19 23:28:27.181] [CACHE] [MainThread] erro chave: ['paginacao']
+[2026-10-19 23:28:27.181] [CACHE] [MainThread] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:28:27.185] [RECUPERACAO] [MainThread] status: busca_concluida documentos_encontrados=3 duracao: 0.0032s
+[2026-10-19 23:28:33.401] [GERACAO] [MainThread] status: geracao_concluida caracteres_resposta=1593 duracao: 6.2158s
+[2026-10-19 23:28:33.401] [CONSULTA] [MainThread] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0032499470003131137; tempo_geracao_s: 6.215798312000061 duracao: 6.2199s
+[2026-10-19 23:28:33.401] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 6.2199s
+[2026-10-19 23:28:33.550] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-19 23:31:48.739] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-19 23:31:48.762] [CONSULTA] [MainThread] status: consulta_iniciada
+[2026-10-19 23:31:48.762] [CACHE] [MainThread] erro chave: ['paginacao']
+[2026-10-19 23:31:48.762] [CACHE] [MainThread] status: cache_miss duracao: 0.0001s
+[2026-10-19 23:31:48.765] [RECUPERACAO] [MainThread] status: busca_concluida documentos_encontrados=3 duracao: 0.0034s
+[2026-10-19 23:31:54.946] [GERACAO] [MainThread] status: geracao_concluida caracteres_resposta=1478 duracao: 6.1801s
+[2026-10-19 23:31:54.946] [CONSULTA] [MainThread] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.0033993420001934282; tempo_geracao_s: 6.180094412000017 duracao: 6.1842s
+[2026-10-19 23:31:54.946] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 6.1843s
+[2026-10-19 23:39:11.612] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-19 23:39:11.645] [CONSULTA] [MainThread] status: consulta_iniciada
+[2026-10-19 23:39:11.645] [CACHE] [MainThread] erro chave: ['paginacao']
+[2026-10-19 23:39:11.645] [CACHE] [MainThread] status: cache_miss duracao: 0.0000s
+[2026-10-19 23:39:11.653] [RECUPERACAO] [MainThread] status: busca_concluida documentos_encontrados=3 duracao: 0.0075s
+[2026-10-19 23:39:11.664] [FALHA] [MainThread] etapa: geracao; erro: URLError: <urlopen error [Errno 111] Connection refused> duracao: 0.0110s
+[2026-10-19 23:39:11.664] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 0.0194s
+[2026-10-19 23:42:57.393] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-20 00:07:32.863] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-20 00:07:32.884] [CONSULTA] [MainThread] status: consulta_iniciada
+[2026-10-20 00:07:32.884] [CACHE] [MainThread] erro chave: ['paginacao']
+[2026-10-20 00:07:32.884] [CACHE] [MainThread] status: cache_miss duracao: 0.0001s
+[2026-10-20 00:07:32.892] [RECUPERACAO] [MainThread] status: busca_concluida documentos_encontrados=3 duracao: 0.0079s
+[2026-10-20 00:07:32.946] [FALHA] [MainThread] etapa: geracao; erro: HTTPError: HTTP Error 404: Not Found duracao: 0.0536s
+[2026-10-20 00:07:32.946] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 0.0624s
+[2026-10-20 00:08:31.974] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-20 00:08:31.978] [CONSULTA] [MainThread] status: consulta_iniciada
+[2026-10-20 00:08:31.979] [CACHE] [MainThread] erro chave: ['paginacao']
+[2026-10-20 00:08:31.979] [CACHE] [MainThread] status: cache_miss duracao: 0.0000s
+[2026-10-20 00:08:31.981] [RECUPERACAO] [MainThread] status: busca_concluida documentos_encontrados=3 duracao: 0.0024s
+[2026-10-20 00:08:31.991] [FALHA] [MainThread] etapa: geracao; erro: HTTPError: HTTP Error 404: Not Found duracao: 0.0092s
+[2026-10-20 00:08:31.991] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 0.0123s
+[2026-10-20 00:41:48.099] [SISTEMA] [MainThread] status: inicio_execucao
+[2026-10-20 00:41:48.118] [CONSULTA] [MainThread] status: consulta_iniciada
+[2026-10-20 00:41:48.119] [CACHE] [MainThread] erro chave: ['paginacao']
+[2026-10-20 00:41:48.119] [CACHE] [MainThread] status: cache_miss duracao: 0.0001s
+[2026-10-20 00:41:48.127] [RECUPERACAO] [MainThread] status: busca_concluida documentos_encontrados=3 duracao: 0.0080s
+[2026-10-20 00:42:16.594] [GERACAO] [MainThread] status: geracao_concluida caracteres_resposta=1402 duracao: 28.4671s
+[2026-10-20 00:42:16.594] [CONSULTA] [MainThread] status: consulta_concluida; origem: ollama; cache_hit: False; tempo_cache_s: 0.0001; tempo_recuperacao_s: 0.008007581000128994; tempo_geracao_s: 28.467050454000855 duracao: 28.4759s
+[2026-10-20 00:42:16.594] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 28.4759s
+[2026-10-20 00:42:16.594] [CONSULTA] [MainThread] status: consulta_iniciada
+[2026-10-20 00:42:16.594] [CACHE] [MainThread] acerto chave: ['paginacao'] similaridade: 1.000
+[2026-10-20 00:42:16.594] [CACHE] [MainThread] status: cache_hit duracao: 0.0000s
+[2026-10-20 00:42:16.594] [CONSULTA] [MainThread] status: consulta_concluida; origem: cache; cache_hit: True; tempo_cache_s: 0.0000; tempo_recuperacao_s: None; tempo_geracao_s: None duracao: 0.0001s
+[2026-10-20 00:42:16.594] [ENCERRAMENTO] [MainThread] status: consulta_encerrada duracao: 0.0001s

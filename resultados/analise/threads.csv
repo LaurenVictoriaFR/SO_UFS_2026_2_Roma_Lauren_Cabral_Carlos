@@ -1,0 +1,8 @@
+thread,eventos,tempo_ocupado_s,janela_s,utilizacao
+MainThread,89,40.9696,4800.045,0.0085
+Produtor-0,36,0.0,4800.045,0.0
+Produtor-1,36,0.0,4800.045,0.0
+Trabalhador-0,345,222.1059,4800.045,0.0463
+Trabalhador-1,150,138.1028,4800.045,0.0288
+Trabalhador-2,51,63.8009,4800.045,0.0133
+Trabalhador-3,51,66.9062,4800.045,0.0139

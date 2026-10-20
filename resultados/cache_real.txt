@@ -1,0 +1,3 @@
+{'cache_hit': False, 'tempo_cache_s': 5.295200026012026e-05, 'tempo_recuperacao_s': 0.008007581000128994, 'tempo_geracao_s': 28.467050454000855, 'tempo_total_s': 28.47588126899973}
+{'cache_hit': True, 'tempo_cache_s': 4.111099951842334e-05, 'tempo_recuperacao_s': None, 'tempo_geracao_s': None, 'tempo_total_s': 0.0001109630002247286}
+{'politica': 'LRU', 'capacidade': 100, 'limiar': None, 'entradas': 1, 'acertos': 1, 'acertos_semanticos': 0, 'erros': 1, 'taxa_acerto': 0.5, 'substituicoes': 0, 'tempo_economizado': 28.467050454000855}

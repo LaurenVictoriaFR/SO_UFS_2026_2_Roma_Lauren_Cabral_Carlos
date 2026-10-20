@@ -1,0 +1,2 @@
+processadas,espera_media_s,espera_mediana_s,espera_p95_s,espera_max_s,processamento_medio_s,fila_media,fila_max,falha_fila_saturada,falha_item_invalido,falha_erro_processamento,falha_encerramento_forcado
+72,9.3593,7.7408,24.3845,35.6601,6.8197,3.67,8.0,0,0,0,0

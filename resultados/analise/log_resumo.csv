@@ -1,0 +1,13 @@
+metrica,valor
+linhas_total,758
+linhas_validas,758
+linhas_corrompidas,0
+threads_distintas,7
+eventos_CACHE,158
+eventos_CONSULTA,227
+eventos_ENCERRAMENTO,109
+eventos_FALHA,3
+eventos_FILA,90
+eventos_GERACAO,75
+eventos_RECUPERACAO,78
+eventos_SISTEMA,18
