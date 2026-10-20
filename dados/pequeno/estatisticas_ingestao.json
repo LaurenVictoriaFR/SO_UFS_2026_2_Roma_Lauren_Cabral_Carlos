@@ -1,0 +1,11 @@
+{
+  "n_documentos": 200,
+  "bytes_corpus": 571637,
+  "n_fragmentos": 1422,
+  "tam_medio_fragmento_bytes": 491.1,
+  "dim": 1024,
+  "bytes_db": 851968,
+  "bytes_vetores": 5824640,
+  "tempo_ingestao_s": 0.468,
+  "tempo_medio_por_doc_s": 0.001691
+}

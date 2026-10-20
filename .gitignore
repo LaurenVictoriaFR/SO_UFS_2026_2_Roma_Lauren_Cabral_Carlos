@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.bin
+.venv/
+venv/
+dados/medio/
+dados/grande/
