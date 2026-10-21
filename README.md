@@ -38,7 +38,7 @@ python3 codigo/metricas.py --log logs/papel4.log --saida resultados/analise
 
 ## Experimentos
 
-**Daniel executa todos os comandos abaixo**, na máquina de referência (a mesma para todos os experimentos), e entrega os resultados brutos. A análise dos resultados está no relatório. Cada experimento é repetido ao menos 3 vezes. Os resultados brutos ficam em `resultados/` e os logs em `logs/`.
+**Execute todos os comandos abaixo**, para receber os dados brutos. A análise dos resultados está no relatório. Cada experimento foi repetido ao menos 3 vezes. Os resultados brutos ficam em `resultados/` e os logs em `logs/`.
 
 | Experimento | Comando | Saída |
 |---|---|---|
@@ -56,7 +56,7 @@ O C6 também pode ser provocado desligando o Ollama e fazendo uma consulta: o lo
 
 ## Vídeo
 
-[URL]
+https://drive.google.com/drive/folders/1gvZHCQy1qjLPcn4lPBkRquRQMsyRp2v3
 
 ## Equipe e atribuição
 
