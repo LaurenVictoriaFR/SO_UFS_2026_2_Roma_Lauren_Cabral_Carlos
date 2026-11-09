@@ -1,0 +1,20 @@
+cpu_max="50000 100000"
+memory_max="268435456"
+pids_max="64"
+ini_usage=52134
+ini_nrthr=0
+ini_thrus=0
+n=50000000
+feitas=50000000
+checksum=107374406695792320
+status=OK
+wall_s=13.807
+cpu_s=6.907
+rss_kb=9960
+rc=0
+fim_usage=6990565
+fim_nrthr=139
+fim_thrus=6910839
+memory_current=2715648
+memory_peak=6914048
+OOMKilled=false ExitCode=0
