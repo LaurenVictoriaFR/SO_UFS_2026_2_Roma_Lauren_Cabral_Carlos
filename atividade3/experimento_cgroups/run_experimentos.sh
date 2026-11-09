@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Atividade 3, Parte C: 2 condicoes x 3 repeticoes, alternadas (C1,C2,C1,C2,C1,C2).
-# Requer Docker com cgroup v2. Tentativas com erro sao preservadas (nao apague).
 set -u
 cd "$(dirname "$0")"
 
