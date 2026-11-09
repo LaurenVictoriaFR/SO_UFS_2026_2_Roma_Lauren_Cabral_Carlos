@@ -1,0 +1,50 @@
+### D0_rw_root_padrao
+uid=0(root) gid=0(root) groups=0(root)
+CapEff:	00000000a80425fb
+NoNewPrivs:	0
+L  ler texto.txt             rc=0   Documento sintetico
+E1 criar novo.txt            rc=0   
+E2 anexar em texto.txt       rc=0   
+E3 remover texto.txt         rc=0   
+C1 chown em /tmp             rc=0   
+C2 escrever em /etc          rc=0   
+### D1_ro_root_padrao
+uid=0(root) gid=0(root) groups=0(root)
+CapEff:	00000000a80425fb
+NoNewPrivs:	0
+L  ler texto.txt             rc=0   Documento sintetico
+E1 criar novo.txt            rc=1   touch: cannot touch '/dados/novo.txt': Read-only file system
+E2 anexar em texto.txt       rc=2   sh: 1: cannot create /dados/texto.txt: Read-only file system
+E3 remover texto.txt         rc=1   rm: cannot remove '/dados/texto.txt': Read-only file system
+C1 chown em /tmp             rc=0   
+C2 escrever em /etc          rc=0   
+### D2_ro_root_sem_caps
+uid=0(root) gid=0(root) groups=0(root)
+CapEff:	0000000000000000
+NoNewPrivs:	0
+L  ler texto.txt             rc=0   Documento sintetico
+E1 criar novo.txt            rc=1   touch: cannot touch '/dados/novo.txt': Read-only file system
+E2 anexar em texto.txt       rc=2   sh: 1: cannot create /dados/texto.txt: Permission denied
+E3 remover texto.txt         rc=1   rm: cannot remove '/dados/texto.txt': Read-only file system
+C1 chown em /tmp             rc=1   chown: changing ownership of '/tmp/f': Operation not permitted
+C2 escrever em /etc          rc=0   
+### D3_rw_endurecido
+uid=1000 gid=1000 groups=1000
+CapEff:	0000000000000000
+NoNewPrivs:	1
+L  ler texto.txt             rc=0   Documento sintetico
+E1 criar novo.txt            rc=0   
+E2 anexar em texto.txt       rc=0   
+E3 remover texto.txt         rc=0   
+C1 chown em /tmp             rc=1   chown: changing ownership of '/tmp/f': Operation not permitted
+C2 escrever em /etc          rc=2   sh: 1: cannot create /etc/lab-x: Permission denied
+### D4_ro_endurecido
+uid=1000 gid=1000 groups=1000
+CapEff:	0000000000000000
+NoNewPrivs:	1
+L  ler texto.txt             rc=0   Documento sintetico
+E1 criar novo.txt            rc=1   touch: cannot touch '/dados/novo.txt': Read-only file system
+E2 anexar em texto.txt       rc=2   sh: 1: cannot create /dados/texto.txt: Read-only file system
+E3 remover texto.txt         rc=1   rm: cannot remove '/dados/texto.txt': Read-only file system
+C1 chown em /tmp             rc=1   chown: changing ownership of '/tmp/f': Operation not permitted
+C2 escrever em /etc          rc=2   sh: 1: cannot create /etc/lab-x: Permission denied

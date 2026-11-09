@@ -1,0 +1,6 @@
+2026-11-08T23:58:57-03:00
+terminal: Linux 6.18.33.2-microsoft-standard-WSL2
+docker: cliente 29.7.2 | servidor 29.7.2
+daemon: Docker Desktop | kernel 6.18.33.2-microsoft-standard-WSL2 | cgroup v2 | [name=seccomp,profile=builtin name=cgroupns]
+imagem: python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+identidade não-root do teste: 1000:1000

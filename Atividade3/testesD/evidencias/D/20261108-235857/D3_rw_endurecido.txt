@@ -1,0 +1,25 @@
+### D3_rw_endurecido
+# docker run --rm -i --network none --user 1000:1000 --cap-drop=ALL --security-opt no-new-privileges -v <copia-descartavel>:/dados python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b sh -s
+# host antes
+total 4
+-rw-rw-rw- 1 1000 1000 20 Nov  8 23:59 texto.txt
+e02438114cdcdd2ca20c823c62ef2e8754e6c8d107beb4eac4d39f030208d5d7  /tmp/tmp.5WQlgnixOW/dados_rw/texto.txt
+--- estado efetivo
+uid=1000 gid=1000 groups=1000
+mnt:[4026532552]
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+NoNewPrivs:	1
+1094 1085 0:76 <oculto> /dados rw,nosuid,nodev - tmpfs tmpfs rw,nr_inodes=1048576
+--- operações em /dados
+L  ler texto.txt             rc=0   Documento sintetico
+E1 criar novo.txt            rc=0   
+E2 anexar em texto.txt       rc=0   
+E3 remover texto.txt         rc=0   
+--- outras camadas (fora de /dados)
+C1 chown em /tmp             rc=1   chown: changing ownership of '/tmp/f': Operation not permitted
+C2 escrever em /etc          rc=2   sh: 1: cannot create /etc/lab-x: Permission denied
+# host depois
+total 0
+-rw-r--r-- 1 1000 1000 0 Nov  8 23:59 novo.txt
+sha256sum: /tmp/tmp.5WQlgnixOW/dados_rw/texto.txt: No such file or directory

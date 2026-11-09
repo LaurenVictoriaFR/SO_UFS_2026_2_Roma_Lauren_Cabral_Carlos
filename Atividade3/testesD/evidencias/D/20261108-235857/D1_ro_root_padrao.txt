@@ -1,0 +1,25 @@
+### D1_ro_root_padrao
+# docker run --rm -i --network none --user 0 -v ./dados_demo:/dados:ro python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b sh -s
+# host antes
+total 4
+-rw-r--r-- 1 1000 1000 20 Nov  8 23:59 texto.txt
+e02438114cdcdd2ca20c823c62ef2e8754e6c8d107beb4eac4d39f030208d5d7  dados_demo/texto.txt
+--- estado efetivo
+uid=0(root) gid=0(root) groups=0(root)
+mnt:[4026532552]
+CapEff:	00000000a80425fb
+CapBnd:	00000000a80425fb
+NoNewPrivs:	0
+1094 1085 8:48 <oculto> /dados ro,relatime - ext4 /dev/sdd rw,discard,errors=remount-ro,data=ordered
+--- operações em /dados
+L  ler texto.txt             rc=0   Documento sintetico
+E1 criar novo.txt            rc=1   touch: cannot touch '/dados/novo.txt': Read-only file system
+E2 anexar em texto.txt       rc=2   sh: 1: cannot create /dados/texto.txt: Read-only file system
+E3 remover texto.txt         rc=1   rm: cannot remove '/dados/texto.txt': Read-only file system
+--- outras camadas (fora de /dados)
+C1 chown em /tmp             rc=0   
+C2 escrever em /etc          rc=0   
+# host depois
+total 4
+-rw-r--r-- 1 1000 1000 20 Nov  8 23:59 texto.txt
+e02438114cdcdd2ca20c823c62ef2e8754e6c8d107beb4eac4d39f030208d5d7  dados_demo/texto.txt
