@@ -1,0 +1,8 @@
+recurso,handle_A,handle_B,iguais,handle_host,interpretacao
+pid,pid:[4026533284],pid:[4026533521],nao,pid:[4026531836],"Árvores de processos separadas: cada contêiner tem seu próprio PID 1 e não enxerga os processos do outro"
+mnt,mnt:[4026533280],mnt:[4026533459],nao,mnt:[4026531832],"Tabelas de montagem separadas: cada um vê seu próprio / (rootfs da imagem) e seus próprios mounts"
+net,net:[4026533286],net:[4026533523],nao,net:[4026531833],"Pilhas de rede separadas: interfaces, rotas e portas próprias (aqui só lo, por causa de --network none)"
+uts,uts:[4026533282],uts:[4026533460],nao,uts:[4026531838],"Hostname próprio em cada contêiner"
+ipc,ipc:[4026533283],ipc:[4026533461],nao,ipc:[4026531839],"Recursos IPC (System V / POSIX mqueue) separados"
+cgroup,cgroup:[4026533285],cgroup:[4026533522],nao,cgroup:[4026531835],"Visão própria da hierarquia de cgroups (a raiz aparente é o cgroup do contêiner)"
+user,user:[4026531837],user:[4026531837],sim,user:[4026531837],"Compartilhado: sem userns-remap/rootless, ambos usam o user namespace do host (UID 0 interno é UID 0 no host)"

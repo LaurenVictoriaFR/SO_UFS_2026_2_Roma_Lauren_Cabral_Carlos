@@ -1,0 +1,110 @@
+
+========== 0. Imagem fixada por digest ==========
+IMAGEM_LAB=python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+
+========== 1. Contexto do daemon ==========
+data=2026-11-09T21:20:32-03:00
+kernel_terminal=Linux 7.0.0-42-generic x86_64
+docker_context=default
+daemon_OS=Ubuntu 26.04.1 LTS | kernel_daemon=7.0.0-42-generic | cgroup=v2 driver=systemd
+
+========== 2. Subindo dois contêineres independentes ==========
+ns_lab_a iniciado: id=0f42d3bdf826
+ns_lab_b iniciado: id=96f6e9d994fe
+Flags: --network none, --cap-drop ALL, no-new-privileges, 64 MiB, pids-limit 16, sleep 600 (encerra sozinho)
+
+========== 3. Coleta dentro de ns_lab_a ==========
+PID_host=350794
+comm_PID1=sleep
+ns_pid=pid:[4026533284]
+ns_mnt=mnt:[4026533280]
+ns_net=net:[4026533286]
+ns_uts=uts:[4026533282]
+ns_ipc=ipc:[4026533283]
+ns_cgroup=cgroup:[4026533285]
+ns_user=user:[4026531837]
+--- Processos visíveis em /proc dentro de ns_lab_a  [PID(comando)]:
+1(sleep) 56(sh) 
+--- Shell aberto pelo docker exec (entra nos mesmos namespaces):
+PID_interno_do_sh=64 ns_pid_do_sh=pid:[4026533284]
+--- Interfaces de rede vistas em ns_lab_a: lo 
+--- hostname (UTS) em ns_lab_a: 0f42d3bdf826
+
+========== 3. Coleta dentro de ns_lab_b ==========
+PID_host=350867
+comm_PID1=sleep
+ns_pid=pid:[4026533521]
+ns_mnt=mnt:[4026533459]
+ns_net=net:[4026533523]
+ns_uts=uts:[4026533460]
+ns_ipc=ipc:[4026533461]
+ns_cgroup=cgroup:[4026533522]
+ns_user=user:[4026531837]
+--- Processos visíveis em /proc dentro de ns_lab_b  [PID(comando)]:
+1(sleep) 57(sh) 
+--- Shell aberto pelo docker exec (entra nos mesmos namespaces):
+PID_interno_do_sh=65 ns_pid_do_sh=pid:[4026533521]
+--- Interfaces de rede vistas em ns_lab_b: lo 
+--- hostname (UTS) em ns_lab_b: 96f6e9d994fe
+
+========== 4. Verificação cruzada pelo host ==========
+--- ns_lab_a (PID_host=350794)
+comm visto pelo host: sleep
+NSpid (host -> interno): 350794 1
+host_ve_ns_pid=pid:[4026533284]
+host_ve_ns_mnt=mnt:[4026533280]
+host_ve_ns_net=net:[4026533286]
+--- ns_lab_b (PID_host=350867)
+comm visto pelo host: sleep
+NSpid (host -> interno): 350867 1
+host_ve_ns_pid=pid:[4026533521]
+host_ve_ns_mnt=mnt:[4026533459]
+host_ve_ns_net=net:[4026533523]
+--- Namespaces do próprio host (processo do terminal):
+ns_pid=pid:[4026531836]
+ns_mnt=mnt:[4026531832]
+ns_net=net:[4026531833]
+ns_uts=uts:[4026531838]
+ns_ipc=ipc:[4026531839]
+ns_cgroup=cgroup:[4026531835]
+ns_user=user:[4026531837]
+
+========== 5. Arquivos gerados ==========
+host.env
+namespaces.csv
+ns_lab_a.env
+ns_lab_b.env
+registro_completo.txt
+tabela_namespaces.md
+
+# Evidências de namespaces — coleta de 20261109_212032
+
+Imagem: `python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b`  
+Contêineres: `ns_lab_a` (A) e `ns_lab_b` (B)  
+Daemon nativo neste terminal: sim
+
+## Tabela principal (PID, mount, network)
+
+| Recurso | Handle em A | Handle em B | A × B | Handle do host | Interpretação |
+|---|---|---|---|---|---|
+| pid | `pid:[4026533284]` | `pid:[4026533521]` | Diferentes | `pid:[4026531836]` | Árvores de processos separadas: cada contêiner tem seu próprio PID 1 e não enxerga os processos do outro |
+| mnt | `mnt:[4026533280]` | `mnt:[4026533459]` | Diferentes | `mnt:[4026531832]` | Tabelas de montagem separadas: cada um vê seu próprio / (rootfs da imagem) e seus próprios mounts |
+| net | `net:[4026533286]` | `net:[4026533523]` | Diferentes | `net:[4026531833]` | Pilhas de rede separadas: interfaces, rotas e portas próprias (aqui só lo, por causa de --network none) |
+
+## Namespaces adicionais (contexto)
+
+| Recurso | Handle em A | Handle em B | A × B | Handle do host | Interpretação |
+|---|---|---|---|---|---|
+| uts | `uts:[4026533282]` | `uts:[4026533460]` | Diferentes | `uts:[4026531838]` | Hostname próprio em cada contêiner |
+| ipc | `ipc:[4026533283]` | `ipc:[4026533461]` | Diferentes | `ipc:[4026531839]` | Recursos IPC (System V / POSIX mqueue) separados |
+| cgroup | `cgroup:[4026533285]` | `cgroup:[4026533522]` | Diferentes | `cgroup:[4026531835]` | Visão própria da hierarquia de cgroups (a raiz aparente é o cgroup do contêiner) |
+| user | `user:[4026531837]` | `user:[4026531837]` | Iguais | `user:[4026531837]` | Compartilhado: sem userns-remap/rootless, ambos usam o user namespace do host (UID 0 interno é UID 0 no host) |
+
+## PID 1 de cada contêiner
+
+| Contêiner | PID no host (inspect) | Comando do PID 1 interno | NSpid (host → interno) |
+|---|---|---|---|
+| ns_lab_a | 350794 | sleep | 350794 1 |
+| ns_lab_b | 350867 | sleep | 350867 1 |
+
+# Limpeza: removendo apenas ns_lab_a e ns_lab_b
